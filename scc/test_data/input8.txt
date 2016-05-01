@@ -1,0 +1,7 @@
+a1;a2;a3;a4
+b1;b2;b3;b4
+(a1,a2,1.0,true);(a2,a3,1.0,true);(a3,a1,1.0,true);(a3,a4,1.0,true);(b1,b2,1.0,false);(b2,b3,1.0,false);(b3,b1,1.0,false);(b4,b3,1.0,false);
+(b1,a1,0.2,true);(a3,b2,0.2,false);(a4,b2,0.2,false);(a4,b4,0.2,false);
+
+;a5;a6;a7
+(a2,a5,1.0,true);(a5,a6,1.0,true);(a6,a7,1.0,true);(a7,a5,1.0,true);(a7,a4,1.0,true);

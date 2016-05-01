@@ -1,0 +1,6 @@
+A;B;C;D
+A';B';D'
+(C,A,false,1,true);(B,A,false,1,true);(D,B,false,1,true);(D,C,false,1,true);(A',B',false,1,false);(B',D',false,1,false)
+(A,A',true,1,false);(A,B',true,1,false);(D',D,true,1,true);(A',A,true,1,true);(B',A,true,1,true);(B,B',true,1,false);(D,D',true,1,false)
+
+(A,A',true,1,false);(A,B',true,1,false);(D',D,true,1,true);(A',A,true,1,true);(B',A,true,1,true);(B',B,true,1,true);(D,D',true,1,false)

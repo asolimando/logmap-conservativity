@@ -1,0 +1,3 @@
+#!/bin/bash
+cd lib/Konclude-v0.6.0-408-linux64/
+./Konclude owllinkserver -w AUTO -p 8082

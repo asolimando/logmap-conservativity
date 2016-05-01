@@ -1,0 +1,2617 @@
+
+TEST 1 START: 2014/05/14 14:10:57
+/home/ale/data/oaei2013/conference/reference/cmt-conference.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:10:57
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://cmt>))) [Axioms: 325 Logical Axioms: 237]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://conference>))) [Axioms: 419 Logical Axioms: 296]
+STEP 1: 112 (ms) - 2014/05/14 14:10:58
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:10:58
+LogMap repairing
+Number of original mappings: 30
+Repaired mappings using LogMap: 26
+STEP 2: 723 (ms) - 2014/05/14 14:10:59
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:10:59
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 266 (ms) - 2014/05/14 14:10:59
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:10:59
+Time indexing entities (s): 0.078
+Time extracting structural information (s): 0.194
+Time indexing entities (s): 0.053
+Time extracting structural information (s): 0.156
+STEP 4: 496 (ms) - 2014/05/14 14:11:00
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:00
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 4
+Index violation detection (ms): 6
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 4
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 5
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://conference#Conference> <http://conference#Conference_volume>)
+1 violations
+STEP 5: 37 (ms) - 2014/05/14 14:11:00
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:00
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:00
+
+STEP 7: repair conservativity - 2014/05/14 14:11:00
+LogMap repairing (reusing indexes)
+Number of original mappings: 26
+Repaired mappings using LogMap: 24
+Mappings removed by LogMap: 2
+STEP 7: 22 (ms) - 2014/05/14 14:11:00
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:00
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 155 (ms) - 2014/05/14 14:11:00
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:00
+Time indexing entities (s): 0.031
+Time extracting structural information (s): 0.105
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 3
+Index violation detection (ms): 10
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 6
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://conference#Conference> <http://conference#Conference_volume>)
+1 violations
+1/1 unsolved violation(s) considering equivalences
+STEP 9: 179 (ms) - 2014/05/14 14:11:00
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:00
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 429 (ms) - 2014/05/14 14:11:00
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:00
+Diagnosis size: 1
+Mappings size pre: 24
+Mappings size post: 23
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 648 (ms) - 2014/05/14 14:11:00
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:00
+Time indexing entities (s): 0.027
+Time extracting structural information (s): 0.213
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 4
+Index violation detection (ms): 7
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 5
+Index violation detection (ms): 7
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 288 (ms) - 2014/05/14 14:11:01
+
+Total test time: 3522
+
+TEST 2 START: 2014/05/14 14:11:01
+/home/ale/data/oaei2013/conference/reference/cmt-confof.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:01
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://cmt>))) [Axioms: 325 Logical Axioms: 237]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://confOf>))) [Axioms: 275 Logical Axioms: 201]
+STEP 1: 40 (ms) - 2014/05/14 14:11:01
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:01
+LogMap repairing
+Number of original mappings: 32
+Repaired mappings using LogMap: 32
+STEP 2: 161 (ms) - 2014/05/14 14:11:01
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:01
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 103 (ms) - 2014/05/14 14:11:01
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:01
+Time indexing entities (s): 0.022
+Time extracting structural information (s): 0.103
+Time indexing entities (s): 0.022
+Time extracting structural information (s): 0.108
+STEP 4: 265 (ms) - 2014/05/14 14:11:01
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:01
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 1: 7 VIOLATION(S)
+Index violation detection (ms): 3
+ONTO 0: 4 VIOLATION(S)
+Index violation detection (ms): 4
+ONTO 0: 
+SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#User>)
+SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#User>)
+SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#Reviewer>)
+SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#Reviewer>)
+4 violations
+ONTO 1: 
+SubClassOf(<http://confOf#Member_PC> <http://confOf#Participant>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Member>)
+SubClassOf(<http://confOf#Member_PC> <http://confOf#Member>)
+SubClassOf(<http://confOf#Author> <http://confOf#Participant>)
+SubClassOf(<http://confOf#Author> <http://confOf#Member>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Member_PC>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Participant>)
+7 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 0: 4 VIOLATION(S)
+Index violation detection (ms): 3
+ONTO 1: 7 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#User>)
+SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#User>)
+SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#Reviewer>)
+SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#Reviewer>)
+4 violations
+ONTO 1: 
+SubClassOf(<http://confOf#Member_PC> <http://confOf#Participant>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Member>)
+SubClassOf(<http://confOf#Member_PC> <http://confOf#Member>)
+SubClassOf(<http://confOf#Author> <http://confOf#Participant>)
+SubClassOf(<http://confOf#Author> <http://confOf#Member>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Member_PC>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Participant>)
+7 violations
+STEP 5: 23 (ms) - 2014/05/14 14:11:01
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:01
+11 disjoint axioms added
+STEP 6: 1 (ms) - 2014/05/14 14:11:01
+
+STEP 7: repair conservativity - 2014/05/14 14:11:01
+LogMap repairing (reusing indexes)
+Number of original mappings: 32
+Repaired mappings using LogMap: 22
+Mappings removed by LogMap: 10
+STEP 7: 18 (ms) - 2014/05/14 14:11:01
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:01
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 91 (ms) - 2014/05/14 14:11:01
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:01
+Time indexing entities (s): 0.015
+Time extracting structural information (s): 0.055
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 3
+Index violation detection (ms): 3
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 88 (ms) - 2014/05/14 14:11:02
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:02
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 173 (ms) - 2014/05/14 14:11:02
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:02
+Diagnosis size: 1
+Mappings size pre: 22
+Mappings size post: 21
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 333 (ms) - 2014/05/14 14:11:02
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:02
+Time indexing entities (s): 0.014
+Time extracting structural information (s): 0.104
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 3
+Index violation detection (ms): 4
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 3
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 139 (ms) - 2014/05/14 14:11:02
+
+Total test time: 1322
+
+TEST 3 START: 2014/05/14 14:11:02
+/home/ale/data/oaei2013/conference/reference/cmt-edas.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:02
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://cmt>))) [Axioms: 325 Logical Axioms: 237]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://edas>))) [Axioms: 911 Logical Axioms: 758]
+STEP 1: 133 (ms) - 2014/05/14 14:11:02
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:02
+LogMap repairing
+Number of original mappings: 26
+Repaired mappings using LogMap: 26
+STEP 2: 463 (ms) - 2014/05/14 14:11:03
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:03
+ALCHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 206 (ms) - 2014/05/14 14:11:03
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:03
+Time indexing entities (s): 0.109
+Time extracting structural information (s): 0.345
+Time indexing entities (s): 0.096
+Time extracting structural information (s): 0.194
+STEP 4: 758 (ms) - 2014/05/14 14:11:04
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:04
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 4
+Index violation detection (ms): 6
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 6
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 40 (ms) - 2014/05/14 14:11:04
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:04
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:04
+
+STEP 7: repair conservativity - 2014/05/14 14:11:04
+LogMap repairing (reusing indexes)
+Number of original mappings: 26
+Repaired mappings using LogMap: 26
+Mappings removed by LogMap: 0
+STEP 7: 27 (ms) - 2014/05/14 14:11:04
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:04
+ALCHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 121 (ms) - 2014/05/14 14:11:04
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:04
+Time indexing entities (s): 0.031
+Time extracting structural information (s): 0.117
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 6
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 3
+Index violation detection (ms): 5
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 197 (ms) - 2014/05/14 14:11:04
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:04
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 342 (ms) - 2014/05/14 14:11:04
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:04
+Diagnosis size: 1
+Mappings size pre: 26
+Mappings size post: 25
+ALCHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 470 (ms) - 2014/05/14 14:11:04
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:04
+Time indexing entities (s): 0.032
+Time extracting structural information (s): 0.156
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 4
+Index violation detection (ms): 7
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 3
+Index violation detection (ms): 39
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 280 (ms) - 2014/05/14 14:11:05
+
+Total test time: 2767
+
+TEST 4 START: 2014/05/14 14:11:05
+/home/ale/data/oaei2013/conference/reference/cmt-ekaw.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:05
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://cmt>))) [Axioms: 325 Logical Axioms: 237]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://ekaw>))) [Axioms: 345 Logical Axioms: 239]
+STEP 1: 12 (ms) - 2014/05/14 14:11:05
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:05
+LogMap repairing
+Number of original mappings: 22
+Repaired mappings using LogMap: 22
+STEP 2: 50 (ms) - 2014/05/14 14:11:05
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:05
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 29 (ms) - 2014/05/14 14:11:05
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:05
+Time indexing entities (s): 0.006
+Time extracting structural information (s): 0.026
+Time indexing entities (s): 0.006
+Time extracting structural information (s): 0.03
+STEP 4: 74 (ms) - 2014/05/14 14:11:05
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:05
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 3
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 6
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Conference_Participant>)
+1 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 3
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 5
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Conference_Participant>)
+1 violations
+STEP 5: 20 (ms) - 2014/05/14 14:11:05
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:05
+1 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:05
+
+STEP 7: repair conservativity - 2014/05/14 14:11:05
+LogMap repairing (reusing indexes)
+Number of original mappings: 22
+Repaired mappings using LogMap: 21
+Mappings removed by LogMap: 1
+STEP 7: 7 (ms) - 2014/05/14 14:11:05
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:05
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 36 (ms) - 2014/05/14 14:11:05
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:05
+Time indexing entities (s): 0.006
+Time extracting structural information (s): 0.026
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 3
+Index violation detection (ms): 5
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 4
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 55 (ms) - 2014/05/14 14:11:05
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:05
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 135 (ms) - 2014/05/14 14:11:05
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:05
+Diagnosis size: 0
+Mappings size pre: 21
+Mappings size post: 21
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 228 (ms) - 2014/05/14 14:11:05
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:05
+Time indexing entities (s): 0.006
+Time extracting structural information (s): 0.096
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 4
+Index violation detection (ms): 10
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 7
+Index violation detection (ms): 8
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 146 (ms) - 2014/05/14 14:11:05
+
+Total test time: 665
+
+TEST 5 START: 2014/05/14 14:11:05
+/home/ale/data/oaei2013/conference/reference/cmt-iasted.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:06
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://cmt>))) [Axioms: 325 Logical Axioms: 237]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://iasted>))) [Axioms: 550 Logical Axioms: 369]
+STEP 1: 1213 (ms) - 2014/05/14 14:11:07
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:07
+LogMap repairing
+Number of original mappings: 8
+Repaired mappings using LogMap: 8
+STEP 2: 122 (ms) - 2014/05/14 14:11:07
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:07
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 130 (ms) - 2014/05/14 14:11:07
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:07
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.087
+Time indexing entities (s): 0.005
+Time extracting structural information (s): 0.119
+STEP 4: 221 (ms) - 2014/05/14 14:11:07
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:07
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 6
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 7
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 21 (ms) - 2014/05/14 14:11:07
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:07
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:07
+
+STEP 7: repair conservativity - 2014/05/14 14:11:07
+LogMap repairing (reusing indexes)
+Number of original mappings: 8
+Repaired mappings using LogMap: 8
+Mappings removed by LogMap: 0
+STEP 7: 9 (ms) - 2014/05/14 14:11:07
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:07
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 130 (ms) - 2014/05/14 14:11:07
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:07
+Time indexing entities (s): 0.005
+Time extracting structural information (s): 0.096
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 7
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 7
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 126 (ms) - 2014/05/14 14:11:07
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:07
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 398 (ms) - 2014/05/14 14:11:08
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:08
+Diagnosis size: 0
+Mappings size pre: 8
+Mappings size post: 8
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 721 (ms) - 2014/05/14 14:11:08
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:08
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.229
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 4
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 4
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 255 (ms) - 2014/05/14 14:11:08
+
+Total test time: 2959
+
+TEST 6 START: 2014/05/14 14:11:08
+/home/ale/data/oaei2013/conference/reference/cmt-sigkdd.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:08
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://cmt>))) [Axioms: 325 Logical Axioms: 237]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://sigkdd>))) [Axioms: 201 Logical Axioms: 124]
+STEP 1: 6 (ms) - 2014/05/14 14:11:08
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:08
+LogMap repairing
+Number of original mappings: 24
+Repaired mappings using LogMap: 24
+STEP 2: 34 (ms) - 2014/05/14 14:11:08
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:08
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 24 (ms) - 2014/05/14 14:11:08
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:08
+Time indexing entities (s): 0.007
+Time extracting structural information (s): 0.028
+Time indexing entities (s): 0.006
+Time extracting structural information (s): 0.027
+STEP 4: 102 (ms) - 2014/05/14 14:11:09
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:09
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://sigkdd#Program_Chair> <http://sigkdd#Program_Committee_member>)
+1 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://sigkdd#Program_Chair> <http://sigkdd#Program_Committee_member>)
+1 violations
+STEP 5: 8 (ms) - 2014/05/14 14:11:09
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:09
+1 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:09
+
+STEP 7: repair conservativity - 2014/05/14 14:11:09
+LogMap repairing (reusing indexes)
+Number of original mappings: 24
+Repaired mappings using LogMap: 21
+Mappings removed by LogMap: 3
+STEP 7: 6 (ms) - 2014/05/14 14:11:09
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:09
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 22 (ms) - 2014/05/14 14:11:09
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:09
+Time indexing entities (s): 0.005
+Time extracting structural information (s): 0.014
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 31 (ms) - 2014/05/14 14:11:09
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:09
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 62 (ms) - 2014/05/14 14:11:09
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:09
+Diagnosis size: 1
+Mappings size pre: 21
+Mappings size post: 20
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 86 (ms) - 2014/05/14 14:11:09
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:09
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.036
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 49 (ms) - 2014/05/14 14:11:09
+
+Total test time: 364
+
+TEST 7 START: 2014/05/14 14:11:09
+/home/ale/data/oaei2013/conference/reference/conference-confof.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:09
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://conference>))) [Axioms: 419 Logical Axioms: 296]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://confOf>))) [Axioms: 275 Logical Axioms: 201]
+STEP 1: 10 (ms) - 2014/05/14 14:11:09
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:09
+LogMap repairing
+Number of original mappings: 30
+Repaired mappings using LogMap: 30
+STEP 2: 46 (ms) - 2014/05/14 14:11:09
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:09
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 37 (ms) - 2014/05/14 14:11:09
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:09
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.032
+Time indexing entities (s): 0.005
+Time extracting structural information (s): 0.042
+STEP 4: 90 (ms) - 2014/05/14 14:11:09
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:09
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+ONTO 0: 1 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+SubClassOf(<http://conference#Conference_volume> <http://conference#Conference_part>)
+1 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+ONTO 0: 1 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+SubClassOf(<http://conference#Conference_volume> <http://conference#Conference_part>)
+1 violations
+ONTO 1: 
+0 violations
+STEP 5: 11 (ms) - 2014/05/14 14:11:09
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:09
+1 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:09
+
+STEP 7: repair conservativity - 2014/05/14 14:11:09
+LogMap repairing (reusing indexes)
+Number of original mappings: 30
+Repaired mappings using LogMap: 22
+Mappings removed by LogMap: 8
+STEP 7: 8 (ms) - 2014/05/14 14:11:09
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:09
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 54 (ms) - 2014/05/14 14:11:09
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:09
+Time indexing entities (s): 0.005
+Time extracting structural information (s): 0.031
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 45 (ms) - 2014/05/14 14:11:09
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:09
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 81 (ms) - 2014/05/14 14:11:09
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:09
+Diagnosis size: 0
+Mappings size pre: 22
+Mappings size post: 22
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 127 (ms) - 2014/05/14 14:11:09
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:09
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.046
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 63 (ms) - 2014/05/14 14:11:09
+
+Total test time: 507
+
+TEST 8 START: 2014/05/14 14:11:09
+/home/ale/data/oaei2013/conference/reference/conference-edas.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:09
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://conference>))) [Axioms: 419 Logical Axioms: 296]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://edas>))) [Axioms: 911 Logical Axioms: 758]
+STEP 1: 24 (ms) - 2014/05/14 14:11:09
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:09
+LogMap repairing
+Number of original mappings: 34
+Repaired mappings using LogMap: 32
+STEP 2: 73 (ms) - 2014/05/14 14:11:09
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:09
+ALCHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 37 (ms) - 2014/05/14 14:11:09
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:09
+Time indexing entities (s): 0.008
+Time extracting structural information (s): 0.048
+Time indexing entities (s): 0.009
+Time extracting structural information (s): 0.056
+STEP 4: 126 (ms) - 2014/05/14 14:11:10
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:10
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 0: 8 VIOLATION(S)
+Index violation detection (ms): 2
+Index violation detection (ms): 3
+ONTO 0: 
+SubClassOf(<http://conference#Rejected_contribution> <http://conference#Paper>)
+SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Rejected_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Paper>)
+SubClassOf(<http://conference#Accepted_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Accepted_contribution> <http://conference#Paper>)
+SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Paper>)
+8 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 0: 8 VIOLATION(S)
+Index violation detection (ms): 2
+Index violation detection (ms): 3
+ONTO 0: 
+SubClassOf(<http://conference#Rejected_contribution> <http://conference#Paper>)
+SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Rejected_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Paper>)
+SubClassOf(<http://conference#Accepted_contribution> <http://conference#Regular_contribution>)
+SubClassOf(<http://conference#Accepted_contribution> <http://conference#Paper>)
+SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Paper>)
+8 violations
+ONTO 1: 
+0 violations
+STEP 5: 19 (ms) - 2014/05/14 14:11:10
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:10
+8 disjoint axioms added
+STEP 6: 1 (ms) - 2014/05/14 14:11:10
+
+STEP 7: repair conservativity - 2014/05/14 14:11:10
+LogMap repairing (reusing indexes)
+Number of original mappings: 32
+Repaired mappings using LogMap: 24
+Mappings removed by LogMap: 8
+STEP 7: 14 (ms) - 2014/05/14 14:11:10
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:10
+ALCHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 74 (ms) - 2014/05/14 14:11:10
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:10
+Time indexing entities (s): 0.013
+Time extracting structural information (s): 0.062
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 3
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 4
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 91 (ms) - 2014/05/14 14:11:10
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:10
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 173 (ms) - 2014/05/14 14:11:10
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:10
+Diagnosis size: 0
+Mappings size pre: 24
+Mappings size post: 24
+ALCHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 254 (ms) - 2014/05/14 14:11:10
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:10
+Time indexing entities (s): 0.012
+Time extracting structural information (s): 0.079
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 3
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 110 (ms) - 2014/05/14 14:11:10
+
+Total test time: 796
+
+TEST 9 START: 2014/05/14 14:11:10
+/home/ale/data/oaei2013/conference/reference/conference-ekaw.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:10
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://conference>))) [Axioms: 419 Logical Axioms: 296]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://ekaw>))) [Axioms: 345 Logical Axioms: 239]
+STEP 1: 10 (ms) - 2014/05/14 14:11:10
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:10
+LogMap repairing
+Number of original mappings: 50
+Repaired mappings using LogMap: 48
+STEP 2: 57 (ms) - 2014/05/14 14:11:10
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:10
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 37 (ms) - 2014/05/14 14:11:10
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:10
+Time indexing entities (s): 0.006
+Time extracting structural information (s): 0.035
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.023
+STEP 4: 70 (ms) - 2014/05/14 14:11:10
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:10
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 0: 1 VIOLATION(S)
+Index violation detection (ms): 2
+Index violation detection (ms): 2
+ONTO 0: 
+SubClassOf(<http://conference#Conference_proceedings> <http://conference#Conference_document>)
+1 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 0: 1 VIOLATION(S)
+Index violation detection (ms): 2
+Index violation detection (ms): 2
+ONTO 0: 
+SubClassOf(<http://conference#Conference_proceedings> <http://conference#Conference_document>)
+1 violations
+ONTO 1: 
+0 violations
+STEP 5: 11 (ms) - 2014/05/14 14:11:10
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:10
+1 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:10
+
+STEP 7: repair conservativity - 2014/05/14 14:11:10
+LogMap repairing (reusing indexes)
+Number of original mappings: 48
+Repaired mappings using LogMap: 46
+Mappings removed by LogMap: 2
+STEP 7: 5 (ms) - 2014/05/14 14:11:10
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:10
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 28 (ms) - 2014/05/14 14:11:10
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:10
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.025
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 3
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 2
+Index violation detection (ms): 3
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 42 (ms) - 2014/05/14 14:11:10
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:10
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 87 (ms) - 2014/05/14 14:11:10
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:10
+Diagnosis size: 0
+Mappings size pre: 46
+Mappings size post: 46
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 130 (ms) - 2014/05/14 14:11:10
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:10
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.037
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 3
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 55 (ms) - 2014/05/14 14:11:10
+
+Total test time: 453
+
+TEST 10 START: 2014/05/14 14:11:10
+/home/ale/data/oaei2013/conference/reference/conference-iasted.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:11
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://conference>))) [Axioms: 419 Logical Axioms: 296]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://iasted>))) [Axioms: 550 Logical Axioms: 369]
+STEP 1: 130 (ms) - 2014/05/14 14:11:11
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:11
+LogMap repairing
+Number of original mappings: 28
+Repaired mappings using LogMap: 28
+STEP 2: 155 (ms) - 2014/05/14 14:11:11
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:11
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 178 (ms) - 2014/05/14 14:11:11
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:11
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.097
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.135
+STEP 4: 241 (ms) - 2014/05/14 14:11:11
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:11
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 0: 9 VIOLATION(S)
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+SubClassOf(<http://conference#Reviewer> <http://conference#Conference_contributor>)
+SubClassOf(<http://conference#Contribution_1th-author> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Reviewer> <http://conference#Conference_participant>)
+SubClassOf(<http://conference#Reviewer> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Contribution_co-author> <http://conference#Conference_participant>)
+SubClassOf(<http://conference#Contribution_1th-author> <http://conference#Conference_participant>)
+SubClassOf(<http://conference#Regular_author> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Contribution_co-author> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Regular_author> <http://conference#Conference_participant>)
+9 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 0: 9 VIOLATION(S)
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+SubClassOf(<http://conference#Reviewer> <http://conference#Conference_contributor>)
+SubClassOf(<http://conference#Contribution_1th-author> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Reviewer> <http://conference#Conference_participant>)
+SubClassOf(<http://conference#Reviewer> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Contribution_co-author> <http://conference#Conference_participant>)
+SubClassOf(<http://conference#Contribution_1th-author> <http://conference#Conference_participant>)
+SubClassOf(<http://conference#Regular_author> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Contribution_co-author> <http://conference#Active_conference_participant>)
+SubClassOf(<http://conference#Regular_author> <http://conference#Conference_participant>)
+9 violations
+ONTO 1: 
+0 violations
+STEP 5: 7 (ms) - 2014/05/14 14:11:11
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:11
+9 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:11
+
+STEP 7: repair conservativity - 2014/05/14 14:11:11
+LogMap repairing (reusing indexes)
+Number of original mappings: 28
+Repaired mappings using LogMap: 27
+Mappings removed by LogMap: 1
+STEP 7: 4 (ms) - 2014/05/14 14:11:11
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:11
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 118 (ms) - 2014/05/14 14:11:11
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:11
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.108
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 121 (ms) - 2014/05/14 14:11:11
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:11
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 350 (ms) - 2014/05/14 14:11:12
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:12
+Diagnosis size: 0
+Mappings size pre: 27
+Mappings size post: 27
+ALCHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 729 (ms) - 2014/05/14 14:11:12
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:12
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.274
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 287 (ms) - 2014/05/14 14:11:12
+
+Total test time: 1894
+
+TEST 11 START: 2014/05/14 14:11:12
+/home/ale/data/oaei2013/conference/reference/conference-sigkdd.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:12
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://conference>))) [Axioms: 419 Logical Axioms: 296]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://sigkdd>))) [Axioms: 201 Logical Axioms: 124]
+STEP 1: 4 (ms) - 2014/05/14 14:11:12
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:12
+LogMap repairing
+Number of original mappings: 30
+Repaired mappings using LogMap: 26
+STEP 2: 23 (ms) - 2014/05/14 14:11:12
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:12
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 15 (ms) - 2014/05/14 14:11:12
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:12
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.012
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.013
+STEP 4: 34 (ms) - 2014/05/14 14:11:12
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:12
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 5 (ms) - 2014/05/14 14:11:12
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:12
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:12
+
+STEP 7: repair conservativity - 2014/05/14 14:11:12
+LogMap repairing (reusing indexes)
+Number of original mappings: 26
+Repaired mappings using LogMap: 24
+Mappings removed by LogMap: 2
+STEP 7: 3 (ms) - 2014/05/14 14:11:12
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:12
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 18 (ms) - 2014/05/14 14:11:12
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:12
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.014
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 22 (ms) - 2014/05/14 14:11:13
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:13
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 47 (ms) - 2014/05/14 14:11:13
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:13
+Diagnosis size: 0
+Mappings size pre: 24
+Mappings size post: 24
+ALCHIF(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 71 (ms) - 2014/05/14 14:11:13
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:13
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.019
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 29 (ms) - 2014/05/14 14:11:13
+
+Total test time: 220
+
+TEST 12 START: 2014/05/14 14:11:13
+/home/ale/data/oaei2013/conference/reference/confof-edas.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:13
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://confOf>))) [Axioms: 275 Logical Axioms: 201]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://edas>))) [Axioms: 911 Logical Axioms: 758]
+STEP 1: 22 (ms) - 2014/05/14 14:11:13
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:13
+LogMap repairing
+Number of original mappings: 38
+Repaired mappings using LogMap: 32
+STEP 2: 76 (ms) - 2014/05/14 14:11:13
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:13
+SOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 34 (ms) - 2014/05/14 14:11:13
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:13
+Time indexing entities (s): 0.008
+Time extracting structural information (s): 0.065
+Time indexing entities (s): 0.013
+Time extracting structural information (s): 0.052
+STEP 4: 142 (ms) - 2014/05/14 14:11:13
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:13
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 8 (ms) - 2014/05/14 14:11:13
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:13
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:13
+
+STEP 7: repair conservativity - 2014/05/14 14:11:13
+LogMap repairing (reusing indexes)
+Number of original mappings: 32
+Repaired mappings using LogMap: 28
+Mappings removed by LogMap: 4
+STEP 7: 5 (ms) - 2014/05/14 14:11:13
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:13
+SOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 43 (ms) - 2014/05/14 14:11:13
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:13
+Time indexing entities (s): 0.008
+Time extracting structural information (s): 0.055
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 72 (ms) - 2014/05/14 14:11:13
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:13
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 126 (ms) - 2014/05/14 14:11:13
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:13
+Diagnosis size: 0
+Mappings size pre: 28
+Mappings size post: 28
+SOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 187 (ms) - 2014/05/14 14:11:13
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:13
+Time indexing entities (s): 0.012
+Time extracting structural information (s): 0.093
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 119 (ms) - 2014/05/14 14:11:13
+
+Total test time: 695
+
+TEST 13 START: 2014/05/14 14:11:13
+/home/ale/data/oaei2013/conference/reference/confof-ekaw.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:13
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://confOf>))) [Axioms: 275 Logical Axioms: 201]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://ekaw>))) [Axioms: 345 Logical Axioms: 239]
+STEP 1: 8 (ms) - 2014/05/14 14:11:13
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:13
+LogMap repairing
+Number of original mappings: 40
+Repaired mappings using LogMap: 40
+STEP 2: 36 (ms) - 2014/05/14 14:11:13
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:13
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 23 (ms) - 2014/05/14 14:11:13
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:13
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.02
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.053
+STEP 4: 82 (ms) - 2014/05/14 14:11:13
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:13
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 0: 5 VIOLATION(S)
+Index violation detection (ms): 0
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 0
+ONTO 0: 
+SubClassOf(<http://confOf#Scholar> <http://confOf#Participant>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Member_PC>)
+SubClassOf(<http://confOf#Scholar> <http://confOf#Student>)
+SubClassOf(<http://confOf#Student> <http://confOf#Scholar>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Participant>)
+5 violations
+ONTO 1: 
+SubClassOf(<http://ekaw#Student> <http://ekaw#Conference_Participant>)
+1 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 0: 5 VIOLATION(S)
+Index violation detection (ms): 0
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 0
+ONTO 0: 
+SubClassOf(<http://confOf#Scholar> <http://confOf#Participant>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Member_PC>)
+SubClassOf(<http://confOf#Scholar> <http://confOf#Student>)
+SubClassOf(<http://confOf#Student> <http://confOf#Scholar>)
+SubClassOf(<http://confOf#Chair_PC> <http://confOf#Participant>)
+5 violations
+ONTO 1: 
+SubClassOf(<http://ekaw#Student> <http://ekaw#Conference_Participant>)
+1 violations
+STEP 5: 6 (ms) - 2014/05/14 14:11:13
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:13
+6 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:13
+
+STEP 7: repair conservativity - 2014/05/14 14:11:13
+LogMap repairing (reusing indexes)
+Number of original mappings: 40
+Repaired mappings using LogMap: 35
+Mappings removed by LogMap: 5
+STEP 7: 5 (ms) - 2014/05/14 14:11:13
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:13
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 30 (ms) - 2014/05/14 14:11:14
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:14
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.03
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 41 (ms) - 2014/05/14 14:11:14
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:14
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 67 (ms) - 2014/05/14 14:11:14
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:14
+Diagnosis size: 0
+Mappings size pre: 35
+Mappings size post: 35
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 100 (ms) - 2014/05/14 14:11:14
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:14
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.037
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 46 (ms) - 2014/05/14 14:11:14
+
+Total test time: 373
+
+TEST 14 START: 2014/05/14 14:11:14
+/home/ale/data/oaei2013/conference/reference/confof-iasted.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:14
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://confOf>))) [Axioms: 275 Logical Axioms: 201]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://iasted>))) [Axioms: 550 Logical Axioms: 369]
+STEP 1: 112 (ms) - 2014/05/14 14:11:14
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:14
+LogMap repairing
+Number of original mappings: 18
+Repaired mappings using LogMap: 18
+STEP 2: 91 (ms) - 2014/05/14 14:11:14
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:14
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 168 (ms) - 2014/05/14 14:11:14
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:14
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.093
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.195
+STEP 4: 294 (ms) - 2014/05/14 14:11:14
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:14
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 6 (ms) - 2014/05/14 14:11:14
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:14
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:14
+
+STEP 7: repair conservativity - 2014/05/14 14:11:14
+LogMap repairing (reusing indexes)
+Number of original mappings: 18
+Repaired mappings using LogMap: 18
+Mappings removed by LogMap: 0
+STEP 7: 5 (ms) - 2014/05/14 14:11:14
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:14
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 153 (ms) - 2014/05/14 14:11:15
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:15
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.156
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 165 (ms) - 2014/05/14 14:11:15
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:15
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 409 (ms) - 2014/05/14 14:11:15
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:15
+Diagnosis size: 0
+Mappings size pre: 18
+Mappings size post: 18
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 848 (ms) - 2014/05/14 14:11:15
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:15
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.351
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 363 (ms) - 2014/05/14 14:11:16
+
+Total test time: 2078
+
+TEST 15 START: 2014/05/14 14:11:16
+/home/ale/data/oaei2013/conference/reference/confof-sigkdd.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:16
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://confOf>))) [Axioms: 275 Logical Axioms: 201]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://sigkdd>))) [Axioms: 201 Logical Axioms: 124]
+STEP 1: 4 (ms) - 2014/05/14 14:11:16
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:16
+LogMap repairing
+Number of original mappings: 14
+Repaired mappings using LogMap: 14
+STEP 2: 17 (ms) - 2014/05/14 14:11:16
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:16
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 12 (ms) - 2014/05/14 14:11:16
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:16
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.013
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.014
+STEP 4: 35 (ms) - 2014/05/14 14:11:16
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:16
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 6 (ms) - 2014/05/14 14:11:16
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:16
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:16
+
+STEP 7: repair conservativity - 2014/05/14 14:11:16
+LogMap repairing (reusing indexes)
+Number of original mappings: 14
+Repaired mappings using LogMap: 12
+Mappings removed by LogMap: 2
+STEP 7: 3 (ms) - 2014/05/14 14:11:16
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:16
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 19 (ms) - 2014/05/14 14:11:16
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:16
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.017
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 25 (ms) - 2014/05/14 14:11:16
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:16
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 54 (ms) - 2014/05/14 14:11:16
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:16
+Diagnosis size: 0
+Mappings size pre: 12
+Mappings size post: 12
+SIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 83 (ms) - 2014/05/14 14:11:16
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:16
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.024
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 32 (ms) - 2014/05/14 14:11:16
+
+Total test time: 229
+
+TEST 16 START: 2014/05/14 14:11:16
+/home/ale/data/oaei2013/conference/reference/edas-ekaw.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:16
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://edas>))) [Axioms: 911 Logical Axioms: 758]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://ekaw>))) [Axioms: 345 Logical Axioms: 239]
+STEP 1: 24 (ms) - 2014/05/14 14:11:16
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:16
+LogMap repairing
+Number of original mappings: 46
+Repaired mappings using LogMap: 46
+STEP 2: 95 (ms) - 2014/05/14 14:11:16
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:16
+SHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 36 (ms) - 2014/05/14 14:11:16
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:16
+Time indexing entities (s): 0.007
+Time extracting structural information (s): 0.061
+Time indexing entities (s): 0.008
+Time extracting structural information (s): 0.054
+STEP 4: 134 (ms) - 2014/05/14 14:11:16
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:16
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+ONTO 0: 2 VIOLATION(S)
+Index violation detection (ms): 1
+ONTO 0: 
+SubClassOf(<http://edas#ConferenceDinner> <http://edas#SocialEvent>)
+SubClassOf(<http://edas#SessionChair> <http://edas#Attendee>)
+2 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+ONTO 0: 2 VIOLATION(S)
+Index violation detection (ms): 1
+ONTO 0: 
+SubClassOf(<http://edas#ConferenceDinner> <http://edas#SocialEvent>)
+SubClassOf(<http://edas#SessionChair> <http://edas#Attendee>)
+2 violations
+ONTO 1: 
+0 violations
+STEP 5: 11 (ms) - 2014/05/14 14:11:16
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:16
+2 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:16
+
+STEP 7: repair conservativity - 2014/05/14 14:11:16
+LogMap repairing (reusing indexes)
+Number of original mappings: 46
+Repaired mappings using LogMap: 44
+Mappings removed by LogMap: 2
+STEP 7: 6 (ms) - 2014/05/14 14:11:16
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:16
+SHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 43 (ms) - 2014/05/14 14:11:16
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:16
+Time indexing entities (s): 0.007
+Time extracting structural information (s): 0.06
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 78 (ms) - 2014/05/14 14:11:16
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:16
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 128 (ms) - 2014/05/14 14:11:16
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:16
+Diagnosis size: 0
+Mappings size pre: 44
+Mappings size post: 44
+SHOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 196 (ms) - 2014/05/14 14:11:17
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:17
+Time indexing entities (s): 0.007
+Time extracting structural information (s): 0.068
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 89 (ms) - 2014/05/14 14:11:17
+
+Total test time: 681
+
+TEST 17 START: 2014/05/14 14:11:17
+/home/ale/data/oaei2013/conference/reference/edas-iasted.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:17
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://edas>))) [Axioms: 911 Logical Axioms: 758]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://iasted>))) [Axioms: 550 Logical Axioms: 369]
+STEP 1: 113 (ms) - 2014/05/14 14:11:17
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:17
+LogMap repairing
+Number of original mappings: 38
+Repaired mappings using LogMap: 38
+STEP 2: 146 (ms) - 2014/05/14 14:11:17
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:17
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 137 (ms) - 2014/05/14 14:11:17
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:17
+Time indexing entities (s): 0.008
+Time extracting structural information (s): 0.131
+Time indexing entities (s): 0.007
+Time extracting structural information (s): 0.144
+STEP 4: 294 (ms) - 2014/05/14 14:11:17
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:17
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 0: 5 VIOLATION(S)
+Index violation detection (ms): 1
+ONTO 1: 2 VIOLATION(S)
+Index violation detection (ms): 1
+ONTO 0: 
+SubClassOf(<http://edas#ConferenceDinner> <http://edas#SocialEvent>)
+SubClassOf(<http://edas#Reviewer> <http://edas#Attendee>)
+SubClassOf(<http://edas#SessionChair> <http://edas#Attendee>)
+SubClassOf(<http://edas#Presenter> <http://edas#Attendee>)
+SubClassOf(<http://edas#Author> <http://edas#Attendee>)
+5 violations
+ONTO 1: 
+SubClassOf(<http://iasted#Coctail_reception> <http://iasted#Social_program>)
+SubClassOf(<http://iasted#Record_of_attendance> <http://iasted#City>)
+2 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 0: 5 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 1: 2 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+SubClassOf(<http://edas#ConferenceDinner> <http://edas#SocialEvent>)
+SubClassOf(<http://edas#Reviewer> <http://edas#Attendee>)
+SubClassOf(<http://edas#SessionChair> <http://edas#Attendee>)
+SubClassOf(<http://edas#Presenter> <http://edas#Attendee>)
+SubClassOf(<http://edas#Author> <http://edas#Attendee>)
+5 violations
+ONTO 1: 
+SubClassOf(<http://iasted#Coctail_reception> <http://iasted#Social_program>)
+SubClassOf(<http://iasted#Record_of_attendance> <http://iasted#City>)
+2 violations
+STEP 5: 14 (ms) - 2014/05/14 14:11:17
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:17
+7 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:17
+
+STEP 7: repair conservativity - 2014/05/14 14:11:17
+LogMap repairing (reusing indexes)
+Number of original mappings: 38
+Repaired mappings using LogMap: 34
+Mappings removed by LogMap: 4
+STEP 7: 6 (ms) - 2014/05/14 14:11:17
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:17
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 124 (ms) - 2014/05/14 14:11:18
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:18
+Time indexing entities (s): 0.007
+Time extracting structural information (s): 0.137
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://iasted#Record_of_attendance> <http://iasted#City>)
+1 violations
+1/7 unsolved violation(s)
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://iasted#Record_of_attendance> <http://iasted#City>)
+1 violations
+1/7 unsolved violation(s) considering equivalences
+STEP 9: 158 (ms) - 2014/05/14 14:11:18
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:18
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 408 (ms) - 2014/05/14 14:11:18
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:18
+Diagnosis size: 0
+Mappings size pre: 34
+Mappings size post: 34
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 735 (ms) - 2014/05/14 14:11:18
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:18
+Time indexing entities (s): 0.007
+Time extracting structural information (s): 0.247
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 2
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://iasted#Record_of_attendance> <http://iasted#City>)
+1 violations
+1/7 unsolved violation(s)
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+ONTO 1: 1 VIOLATION(S)
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+SubClassOf(<http://iasted#Record_of_attendance> <http://iasted#City>)
+1 violations
+1/7 unsolved violation(s) considering equivalences
+STEP 12: 271 (ms) - 2014/05/14 14:11:19
+
+Total test time: 1888
+
+TEST 18 START: 2014/05/14 14:11:19
+/home/ale/data/oaei2013/conference/reference/edas-sigkdd.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:19
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://edas>))) [Axioms: 911 Logical Axioms: 758]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://sigkdd>))) [Axioms: 201 Logical Axioms: 124]
+STEP 1: 12 (ms) - 2014/05/14 14:11:19
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:19
+LogMap repairing
+Number of original mappings: 30
+Repaired mappings using LogMap: 30
+STEP 2: 57 (ms) - 2014/05/14 14:11:19
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:19
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 25 (ms) - 2014/05/14 14:11:19
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:19
+Time indexing entities (s): 0.006
+Time extracting structural information (s): 0.058
+Time indexing entities (s): 0.005
+Time extracting structural information (s): 0.044
+STEP 4: 117 (ms) - 2014/05/14 14:11:19
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:19
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 9 (ms) - 2014/05/14 14:11:19
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:19
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:19
+
+STEP 7: repair conservativity - 2014/05/14 14:11:19
+LogMap repairing (reusing indexes)
+Number of original mappings: 30
+Repaired mappings using LogMap: 22
+Mappings removed by LogMap: 8
+STEP 7: 4 (ms) - 2014/05/14 14:11:19
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:19
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 37 (ms) - 2014/05/14 14:11:19
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:19
+Time indexing entities (s): 0.005
+Time extracting structural information (s): 0.04
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 52 (ms) - 2014/05/14 14:11:19
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:19
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 84 (ms) - 2014/05/14 14:11:19
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:19
+Diagnosis size: 0
+Mappings size pre: 22
+Mappings size post: 22
+ALCOIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 116 (ms) - 2014/05/14 14:11:19
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:19
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.046
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 58 (ms) - 2014/05/14 14:11:19
+
+Total test time: 466
+
+TEST 19 START: 2014/05/14 14:11:19
+/home/ale/data/oaei2013/conference/reference/ekaw-iasted.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:19
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://ekaw>))) [Axioms: 345 Logical Axioms: 239]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://iasted>))) [Axioms: 550 Logical Axioms: 369]
+STEP 1: 122 (ms) - 2014/05/14 14:11:19
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:19
+LogMap repairing
+Number of original mappings: 20
+Repaired mappings using LogMap: 20
+STEP 2: 131 (ms) - 2014/05/14 14:11:19
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:19
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 149 (ms) - 2014/05/14 14:11:19
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:19
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.089
+Time indexing entities (s): 0.004
+Time extracting structural information (s): 0.194
+STEP 4: 296 (ms) - 2014/05/14 14:11:20
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:20
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 8 (ms) - 2014/05/14 14:11:20
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:20
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:20
+
+STEP 7: repair conservativity - 2014/05/14 14:11:20
+LogMap repairing (reusing indexes)
+Number of original mappings: 20
+Repaired mappings using LogMap: 20
+Mappings removed by LogMap: 0
+STEP 7: 3 (ms) - 2014/05/14 14:11:20
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:20
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 145 (ms) - 2014/05/14 14:11:20
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:20
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.145
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 157 (ms) - 2014/05/14 14:11:20
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:20
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 397 (ms) - 2014/05/14 14:11:20
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:20
+Diagnosis size: 0
+Mappings size pre: 20
+Mappings size post: 20
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 919 (ms) - 2014/05/14 14:11:21
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:21
+Time indexing entities (s): 0.003
+Time extracting structural information (s): 0.456
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 2
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 469 (ms) - 2014/05/14 14:11:21
+
+Total test time: 2266
+
+TEST 20 START: 2014/05/14 14:11:21
+/home/ale/data/oaei2013/conference/reference/ekaw-sigkdd.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:21
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://ekaw>))) [Axioms: 345 Logical Axioms: 239]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://sigkdd>))) [Axioms: 201 Logical Axioms: 124]
+STEP 1: 6 (ms) - 2014/05/14 14:11:21
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:21
+LogMap repairing
+Number of original mappings: 22
+Repaired mappings using LogMap: 22
+STEP 2: 21 (ms) - 2014/05/14 14:11:21
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:21
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 15 (ms) - 2014/05/14 14:11:21
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:21
+Time indexing entities (s): 0.001
+Time extracting structural information (s): 0.014
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.013
+STEP 4: 33 (ms) - 2014/05/14 14:11:21
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:21
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 3 (ms) - 2014/05/14 14:11:21
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:21
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:21
+
+STEP 7: repair conservativity - 2014/05/14 14:11:21
+LogMap repairing (reusing indexes)
+Number of original mappings: 22
+Repaired mappings using LogMap: 22
+Mappings removed by LogMap: 0
+STEP 7: 3 (ms) - 2014/05/14 14:11:21
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:21
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 20 (ms) - 2014/05/14 14:11:21
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:21
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.031
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 40 (ms) - 2014/05/14 14:11:21
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:21
+SHIN, Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 63 (ms) - 2014/05/14 14:11:21
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:21
+Diagnosis size: 0
+Mappings size pre: 22
+Mappings size post: 22
+SHIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 88 (ms) - 2014/05/14 14:11:21
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:21
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.024
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 32 (ms) - 2014/05/14 14:11:21
+
+Total test time: 235
+
+TEST 21 START: 2014/05/14 14:11:21
+/home/ale/data/oaei2013/conference/reference/iasted-sigkdd.rdf
+
+STEP 1: input ontologies classification - 2014/05/14 14:11:22
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://iasted>))) [Axioms: 550 Logical Axioms: 369]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://sigkdd>))) [Axioms: 201 Logical Axioms: 124]
+STEP 1: 100 (ms) - 2014/05/14 14:11:22
+
+STEP 2: load mappings and profile original consistency repair - 2014/05/14 14:11:22
+LogMap repairing
+Number of original mappings: 30
+Repaired mappings using LogMap: 30
+STEP 2: 83 (ms) - 2014/05/14 14:11:22
+
+STEP 3: create and classify the aligned ontology - 2014/05/14 14:11:22
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 3: 104 (ms) - 2014/05/14 14:11:22
+
+STEP 4: compute the semantic indexes for input/aligned ontologies - 2014/05/14 14:11:22
+Time indexing entities (s): 0.001
+Time extracting structural information (s): 0.078
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.106
+STEP 4: 194 (ms) - 2014/05/14 14:11:22
+
+STEP 5: detect conservativity principle violations and disjointness axioms - 2014/05/14 14:11:22
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 1
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 0
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 5: 7 (ms) - 2014/05/14 14:11:22
+
+STEP 6: adding disjointness axioms to input ontologies - 2014/05/14 14:11:22
+0 disjoint axioms added
+STEP 6: 0 (ms) - 2014/05/14 14:11:22
+
+STEP 7: repair conservativity - 2014/05/14 14:11:22
+LogMap repairing (reusing indexes)
+Number of original mappings: 30
+Repaired mappings using LogMap: 30
+Mappings removed by LogMap: 0
+STEP 7: 3 (ms) - 2014/05/14 14:11:22
+
+Serializing the repaired mappings
+STEP 8: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:22
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 8: 103 (ms) - 2014/05/14 14:11:22
+
+STEP 9: detect unsolved violations using semantic indexes - 2014/05/14 14:11:22
+Time indexing entities (s): 0.001
+Time extracting structural information (s): 0.1
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 9: 108 (ms) - 2014/05/14 14:11:22
+
+STEP 10: SCC-based diagnosis computation - 2014/05/14 14:11:22
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+ALEI(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 10: 327 (ms) - 2014/05/14 14:11:22
+
+STEP 11: update the aligned ontology for testing unsolved violations - 2014/05/14 14:11:22
+Diagnosis size: 0
+Mappings size pre: 30
+Mappings size post: 30
+ALCIN(D), Reasoner: HermiT 1.3.8 (build 1099)
+STEP 11: 638 (ms) - 2014/05/14 14:11:23
+
+STEP 12: detect unsolved violations using semantic indexes - 2014/05/14 14:11:23
+Time indexing entities (s): 0.002
+Time extracting structural information (s): 0.258
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+Detection of violations kind 2
+a) Detecting all violations using index
+Index violation detection (ms): 0
+Index violation detection (ms): 1
+ONTO 0: 
+0 violations
+ONTO 1: 
+0 violations
+STEP 12: 267 (ms) - 2014/05/14 14:11:23
+
+Total test time: 1516
+Start: 14:10:57
+End: 14:11:23

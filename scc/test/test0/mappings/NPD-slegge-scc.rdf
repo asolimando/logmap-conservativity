@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://sws.ifi.uio.no/vocab/npd-v2-for-QFI</onto1>
+<onto2>http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/</onto2>
+<uri1>http://sws.ifi.uio.no/vocab/npd-v2-for-QFI</uri1>
+<uri2>http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/spatial_object_x"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/frame_polygons"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/gml#Composite"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/composite_obj_x"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Point"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/pty_point"/>
+		<measure rdf:datatype="xsd:float">0.77</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Quadrant"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/utm_quadrant"/>
+		<measure rdf:datatype="xsd:float">0.84</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#FieldOwner"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/field"/>
+		<measure rdf:datatype="xsd:float">0.67</measure>
+		<relation>&lt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://resource.geosciml.org/ontology/timescale/gts-30#GeochronologicEra"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/geochronologic_era"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#DiscoveryArea"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/ref_discovery_area"/>
+		<measure rdf:datatype="xsd:float">0.89</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Field"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/field"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#FieldArea"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/field"/>
+		<measure rdf:datatype="xsd:float">0.71</measure>
+		<relation>&lt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Wellbore"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/wellbore"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/ref_feature"/>
+		<measure rdf:datatype="xsd:float">0.83</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/sf#Line"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/line"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#WellboreDocument"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/wellbore_document_link"/>
+		<measure rdf:datatype="xsd:float">0.89</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Discovery"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/discovery_area"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Pipeline"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/pipeline"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#WellboreCoordinate"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/coordinate_sys"/>
+		<measure rdf:datatype="xsd:float">0.87</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Wellbore"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/r_wellbore"/>
+		<measure rdf:datatype="xsd:float">0.9</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/geometry_set"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Well"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/well"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Operator"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/wellbore_operator"/>
+		<measure rdf:datatype="xsd:float">0.67</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#WellborePoint"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/wellbore_point"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#DiscoveryArea"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/discovery_area"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Facility"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/adm_facility"/>
+		<measure rdf:datatype="xsd:float">0.84</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Survey"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/survey"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#LithostratigraphicUnit"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/v_stratigraphic_unit"/>
+		<measure rdf:datatype="xsd:float">0.83</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#GasPipeline"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/pipeline"/>
+		<measure rdf:datatype="xsd:float">0.84</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Recovery"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/p_recovery_pct"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#PAWellbore"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/wellbore"/>
+		<measure rdf:datatype="xsd:float">0.89</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Equipment"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/equipment_item"/>
+		<measure rdf:datatype="xsd:float">0.83</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2-ptl#Notification"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/notification"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/gml#CompositeSurface"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/general_surface_composite"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#SiteSurvey"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/survey"/>
+		<measure rdf:datatype="xsd:float">0.75</measure>
+		<relation>&lt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/gml#Rectangle"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/p_bnd_rectangle"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Area"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/p_area"/>
+		<measure rdf:datatype="xsd:float">0.89</measure>
+		<relation>&gt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#Reserve"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/reserves"/>
+		<measure rdf:datatype="xsd:float">0.93</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://sws.ifi.uio.no/vocab/npd-v2#WellHead"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/wellhead"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/ont/gml#Shell"/>
+		<entity2 rdf:resource="http://eu.optique.bootstrapping.ontology/postgres_slegge_statoil/shell_x"/>
+		<measure rdf:datatype="xsd:float">0.9</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

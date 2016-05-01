@@ -1,0 +1,4 @@
+A;B
+C;D;E
+(A,B,1.0,true);(C,D,1.0,false);(D,E,1.0,false);(E,C,1.0,false);
+(C,A,0.7,true);(B,E,0.7,false);

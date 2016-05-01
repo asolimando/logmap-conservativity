@@ -1,0 +1,4 @@
+a;b;c;d;e;f;g
+bc;ab;af;ec;dc;bg;gf
+(f,e,1.0,true);(d,e,1.0,true);(e,g,1.0,true);(c,d,1.0,true);(g,c,1.0,true);(g,a,1.0,true);
+(b,bc,0.2,false);(bc,c,0.2,true);(a,ab,0.3,false);(ab,b,0.3,true);(a,af,0.2,false);(af,f,0.2,true);(e,ec,0.5,false);(ec,c,0.5,true);(d,dc,0.4,false);(dc,c,0.4,true);(b,bg,0.1,false);(bg,g,0.1,true);(g,gf,0.4,false);(gf,f,0.4,true);

@@ -1,0 +1,128 @@
+[2_Connective_Tissue -> (1.0) 1_Mucoid_tissue, 
+1_Set_of_cell_parts -> (1.0) 2_Cell_Part, 
+2_Publication_Volume -> (1.0) 1_Volume, 
+1_Cytokine -> (1.0) 2_Cytokine, 
+2_Simple_Columnar_Epithelium -> (1.0) 1_Simple_columnar_epithelium, 
+2_Nerve -> (1.0) 1_Glossopharyngeal_nerve]
+
+
+Processing:
+Ontology(OntologyID(OntologyIRI(<http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0>))) [Axioms: 16690 Logical Axioms: 3828]
+Ontology(OntologyID(OntologyIRI(<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl>))) [Axioms: 32743 Logical Axioms: 9083]
+Vertices loading in: 43ms
+Classification: 801ms
+SUB/EQ
+Classification: 1795ms
+SUB/EQ
+Edges loading in: 2876ms
+#V = 10186
+Detection ended in 181ms
+#LocalSCC = 10186
+Loading RDF mapping file mapsss_small_fma2nci.rdf
+2966 mappings loaded in 3086ms
+Detection ended in 140ms
+#GlobalSCC = 8694
+
+
+Problematic mapping detection: 64ms
+6 problematic SCCs (and their 26 mappings):
+[[2_Cell_Structure, 2_Cell_Part, 1_Set_of_cell_parts, 1_Anatomical_set], [2_Interleukin, 1_Interleukin, 2_Interleukin-7, 1_Protein, 2_Cytokine, 1_Cytokine], [2_Publication_Volume, 2_Document_Type, 1_Volume, 1_Unfaceted_volume], [2_Dense_Connective_Tissue, 1_Loose_connective_tissue, 2_Connective_Tissue, 1_Mucoid_tissue, 2_Connective_Tissue_Proper, 1_Irregular_connective_tissue], [1_Microvillus_columnar_epithelium, 2_Columnar_Epithelium, 1_Simple_columnar_epithelium, 2_Simple_Columnar_Epithelium], [2_Cranial_Nerve, 1_Glossopharyngeal_nerve, 1_Cranial_nerve, 2_Nerve]]
+6 problematic SCCs (and their 26 mappings):
+SCC: [2_Cell_Structure, 2_Cell_Part, 1_Set_of_cell_parts, 1_Anatomical_set]
+Mappings: [2_Cell_Part -> (1.0) 1_Set_of_cell_parts,
+ 1_Set_of_cell_parts -> (1.0) 2_Cell_Part,
+ 1_Anatomical_set -> (1.0) 2_Cell_Structure,
+ 2_Cell_Structure -> (1.0) 1_Anatomical_set]
+Edges: [2_Cell_Structure -> (1.0) 2_Cell_Part,
+ 1_Set_of_cell_parts -> (1.0) 1_Anatomical_set]
+
+SCC: [2_Interleukin, 1_Interleukin, 2_Interleukin-7, 1_Protein, 2_Cytokine, 1_Cytokine]
+Mappings: [1_Protein -> (1.0) 2_Interleukin-7,
+ 1_Cytokine -> (1.0) 2_Cytokine,
+ 2_Cytokine -> (1.0) 1_Cytokine,
+ 1_Interleukin -> (1.0) 2_Interleukin,
+ 2_Interleukin-7 -> (1.0) 1_Protein,
+ 2_Interleukin -> (1.0) 1_Interleukin]
+Edges: [2_Interleukin-7 -> (1.0) 2_Interleukin,
+ 1_Interleukin -> (1.0) 1_Cytokine,
+ 1_Cytokine -> (1.0) 1_Protein,
+ 2_Interleukin -> (1.0) 2_Cytokine]
+
+SCC: [2_Publication_Volume, 2_Document_Type, 1_Volume, 1_Unfaceted_volume]
+Mappings: [2_Document_Type -> (1.0) 1_Unfaceted_volume,
+ 1_Volume -> (1.0) 2_Publication_Volume,
+ 2_Publication_Volume -> (1.0) 1_Volume,
+ 1_Unfaceted_volume -> (1.0) 2_Document_Type]
+Edges: [1_Unfaceted_volume -> (1.0) 1_Volume,
+ 2_Publication_Volume -> (1.0) 2_Document_Type]
+
+SCC: [2_Dense_Connective_Tissue, 1_Loose_connective_tissue, 2_Connective_Tissue, 1_Mucoid_tissue, 2_Connective_Tissue_Proper, 1_Irregular_connective_tissue]
+Mappings: [2_Connective_Tissue -> (1.0) 1_Mucoid_tissue,
+ 2_Dense_Connective_Tissue -> (1.0) 1_Irregular_connective_tissue,
+ 1_Mucoid_tissue -> (1.0) 2_Connective_Tissue,
+ 1_Irregular_connective_tissue -> (1.0) 2_Dense_Connective_Tissue]
+Edges: [1_Loose_connective_tissue -> (1.0) 1_Irregular_connective_tissue,
+ 2_Connective_Tissue_Proper -> (1.0) 2_Connective_Tissue,
+ 2_Dense_Connective_Tissue -> (1.0) 2_Connective_Tissue_Proper,
+ 1_Mucoid_tissue -> (1.0) 1_Loose_connective_tissue]
+
+SCC: [1_Microvillus_columnar_epithelium, 2_Columnar_Epithelium, 1_Simple_columnar_epithelium, 2_Simple_Columnar_Epithelium]
+Mappings: [1_Microvillus_columnar_epithelium -> (1.0) 2_Columnar_Epithelium,
+ 2_Columnar_Epithelium -> (1.0) 1_Microvillus_columnar_epithelium,
+ 2_Simple_Columnar_Epithelium -> (1.0) 1_Simple_columnar_epithelium,
+ 1_Simple_columnar_epithelium -> (1.0) 2_Simple_Columnar_Epithelium]
+Edges: [2_Simple_Columnar_Epithelium -> (1.0) 2_Columnar_Epithelium,
+ 1_Microvillus_columnar_epithelium -> (1.0) 1_Simple_columnar_epithelium]
+
+SCC: [2_Cranial_Nerve, 1_Glossopharyngeal_nerve, 1_Cranial_nerve, 2_Nerve]
+Mappings: [1_Glossopharyngeal_nerve -> (1.0) 2_Nerve,
+ 1_Cranial_nerve -> (1.0) 2_Cranial_Nerve,
+ 2_Cranial_Nerve -> (1.0) 1_Cranial_nerve,
+ 2_Nerve -> (1.0) 1_Glossopharyngeal_nerve]
+Edges: [1_Glossopharyngeal_nerve -> (1.0) 1_Cranial_nerve,
+ 2_Cranial_Nerve -> (1.0) 2_Nerve]
+
+Detection ended in 203ms
+#GlobalSCC = 8700
+
+
+Problematic mapping detection: 8ms
+4 problematic SCCs (and their 14 mappings):
+[[2_Cell_Structure, 2_Cell_Part, 1_Set_of_cell_parts, 1_Anatomical_set], [2_Interleukin, 1_Interleukin, 2_Interleukin-7, 1_Protein, 2_Cytokine, 1_Cytokine], [2_Publication_Volume, 2_Document_Type, 1_Volume, 1_Unfaceted_volume], [1_Microvillus_columnar_epithelium, 2_Columnar_Epithelium, 1_Simple_columnar_epithelium, 2_Simple_Columnar_Epithelium]]
+4 problematic SCCs (and their 14 mappings):
+SCC: [2_Cell_Structure, 2_Cell_Part, 1_Set_of_cell_parts, 1_Anatomical_set]
+Mappings: [2_Cell_Part -> (1.0) 1_Set_of_cell_parts,
+ 1_Set_of_cell_parts -> (1.0) 2_Cell_Part,
+ 1_Anatomical_set -> (1.0) 2_Cell_Structure,
+ 2_Cell_Structure -> (1.0) 1_Anatomical_set]
+Edges: [2_Cell_Structure -> (1.0) 2_Cell_Part,
+ 1_Set_of_cell_parts -> (1.0) 1_Anatomical_set]
+
+SCC: [2_Interleukin, 1_Interleukin, 2_Interleukin-7, 1_Protein, 2_Cytokine, 1_Cytokine]
+Mappings: [1_Protein -> (1.0) 2_Interleukin-7,
+ 1_Cytokine -> (1.0) 2_Cytokine,
+ 2_Cytokine -> (1.0) 1_Cytokine,
+ 1_Interleukin -> (1.0) 2_Interleukin,
+ 2_Interleukin-7 -> (1.0) 1_Protein,
+ 2_Interleukin -> (1.0) 1_Interleukin]
+Edges: [2_Interleukin-7 -> (1.0) 2_Interleukin,
+ 1_Interleukin -> (1.0) 1_Cytokine,
+ 1_Cytokine -> (1.0) 1_Protein,
+ 2_Interleukin -> (1.0) 2_Cytokine]
+
+SCC: [2_Publication_Volume, 2_Document_Type, 1_Volume, 1_Unfaceted_volume]
+Mappings: [2_Document_Type -> (1.0) 1_Unfaceted_volume,
+ 1_Volume -> (1.0) 2_Publication_Volume,
+ 2_Publication_Volume -> (1.0) 1_Volume,
+ 1_Unfaceted_volume -> (1.0) 2_Document_Type]
+Edges: [1_Unfaceted_volume -> (1.0) 1_Volume,
+ 2_Publication_Volume -> (1.0) 2_Document_Type]
+
+SCC: [1_Microvillus_columnar_epithelium, 2_Columnar_Epithelium, 1_Simple_columnar_epithelium, 2_Simple_Columnar_Epithelium]
+Mappings: [1_Microvillus_columnar_epithelium -> (1.0) 2_Columnar_Epithelium,
+ 2_Columnar_Epithelium -> (1.0) 1_Microvillus_columnar_epithelium,
+ 2_Simple_Columnar_Epithelium -> (1.0) 1_Simple_columnar_epithelium,
+ 1_Simple_columnar_epithelium -> (1.0) 2_Simple_Columnar_Epithelium]
+Edges: [2_Simple_Columnar_Epithelium -> (1.0) 2_Columnar_Epithelium,
+ 1_Microvillus_columnar_epithelium -> (1.0) 1_Simple_columnar_epithelium]
+

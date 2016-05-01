@@ -1,0 +1,56 @@
+
+TEST 1 START: 2014/05/20 18:14:46
+/home/ale/data/oaei2013/largebio/reference/oaei2013_SNOMED2NCI_repaired_UMLS_mappings.rdf
+
+STEP 0: input ontologies classification - 2014/05/20 18:14:54
+ALER, Reasoner: HermiT 1.3.8 (build 1099)
+ALCH, Reasoner: HermiT 1.3.8 (build 1099)
+Timeout of 180(s) reached with Hermit Reasoner, trying with ELK Reasoner
+ALER, Reasoner: ELK 0.0.0 (build 0)
+ALCH, Reasoner: ELK 0.0.0 (build 0)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://www.ihtsdo.org/snomed>))) [Axioms: 185832 Logical Axioms: 134653]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl>))) [Axioms: 64920 Logical Axioms: 40879]
+STEP 0: 3910 (ms) - 2014/05/20 18:18:09
+
+STEP 1: load mappings and profile original consistency repair - 2014/05/20 18:18:09
+LogMap repairing
+Number of original mappings: 36405
+Repaired mappings using LogMap: 36405
+STEP 1: 109580 (ms) - 2014/05/20 18:19:59
+
+STEP 2: create and classify the aligned ontology - 2014/05/20 18:19:59
+ALCR, Reasoner: HermiT 1.3.8 (build 1099)
+Timeout of 180(s) reached with Hermit Reasoner, trying with ELK Reasoner
+ALCR, Reasoner: ELK 0.0.0 (build 0)
+Extended ELK disjoint info: 18 using 153 axioms
+STEP 2: 203466 (ms) - 2014/05/20 18:23:22
+
+STEP 3: compute the semantic indexes for input/aligned ontologies - 2014/05/20 18:23:22
+Time indexing entities (s): 0.213
+Time extracting structural information (s): 72.875
+Time indexing entities (s): 0.532
+Time extracting structural information (s): 3.25
+STEP 3: 81714 (ms) - 2014/05/20 18:24:44
+
+STEP 4: detect conservativity principle violations and disjointness axioms - 2014/05/20 18:24:44
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 1: 114536 VIOLATION(S)
+Index violation detection (ms): 13459
+ONTO 0: 411018 VIOLATION(S)
+Index violation detection (ms): 25581
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 1: 115865 VIOLATION(S)
+Index violation detection (ms): 2999
+ONTO 0: 430375 VIOLATION(S)
+Index violation detection (ms): 10099
+STEP 4: 39018 (ms) - 2014/05/20 18:25:23
+
+STEP 5: adding disjointness axioms to input ontologies - 2014/05/20 18:25:23
+525554 disjoint axioms added
+STEP 5: 48851 (ms) - 2014/05/20 18:26:12
+
+STEP 6: repair conservativity - 2014/05/20 18:26:12
+LogMap repairing (reusing indexes)
+Number of original mappings: 36405
