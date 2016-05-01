@@ -2,10 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="src">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/ale/svn/Conservativity/Code/lib/factpp-1.6.2/FaCTpp-linux-1.6.2/64bit"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="lib/factpp-1.6.2/FaCTpp-linux-1.6.2/64bit"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/explanation-3.3.0.jar" sourcepath="/home/ale/svn/Conservativity/Code/lib/explanation-3.3.0-src.zip"/>
+	<classpathentry kind="lib" path="lib/explanation-3.3.0.jar" sourcepath="lib/explanation-3.3.0-src.zip"/>
 	<classpathentry kind="lib" path="lib/HermiT/org.semanticweb.HermiT.jar"/>
 	<classpathentry kind="lib" path="lib/jena/jena-core-2.7.3-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/jena/jena-core-2.7.3-sources.jar"/>
@@ -50,11 +50,6 @@
 	<classpathentry kind="lib" path="lib/watchmaker-framework-0.7.1.jar"/>
 	<classpathentry kind="lib" path="/LOGMAP/lib/seals-omt-client-v4i.jar"/>
 	<classpathentry kind="lib" path="lib/HermiT_1.3.6.jar"/>
-	<classpathentry kind="lib" path="lib/owlapi-distribution-3.5.1.jar" sourcepath="lib/owlapi-distribution-3.5.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/LogMapConservativity/lib/owlapi-distribution-3.5.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="lib/alignAPI-4.8/align.jar"/>
 	<classpathentry kind="lib" path="lib/alignAPI-4.8/ontowrap.jar"/>
 	<classpathentry kind="lib" path="lib/alignAPI-4.8/procalign.jar"/>
@@ -63,12 +58,12 @@
 			<attribute name="javadoc_location" value="jar:platform:/resource/LogMapConservativity/lib/owllink-1.2.2/owllink-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/ale/svn/Conservativity/Code/lib/owllink-1.2.2/org.mortbay.jmx.jar"/>
-	<classpathentry kind="lib" path="/home/ale/svn/Conservativity/Code/lib/owllink-1.2.2/org.mortbay.jetty.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-7-oracle"/>
+	<classpathentry kind="lib" path="lib/owllink-1.2.2/org.mortbay.jmx.jar"/>
+	<classpathentry kind="lib" path="lib/owllink-1.2.2/org.mortbay.jetty.jar"/>
 	<classpathentry kind="lib" path="lib/factpp-linux-4.3/FaCTpp-OWLAPI-3.4-v1.6.3.jar"/>
-	<classpathentry kind="lib" path="lib/elk-0.5.0-owlapi.jar" sourcepath="/home/ale/svn/Conservativity/Code/lib/elk-0.5.0-owlapi-sources.jar"/>
+	<classpathentry kind="lib" path="lib/elk-0.5.0-owlapi.jar" sourcepath="lib/elk-0.5.0-owlapi-sources.jar"/>
 	<classpathentry kind="lib" path="lib/jgraphx_1.10.3.1_modified.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="output" path="bin"/>
-	<referencedentry kind="lib" path="lib/pellet-2.3.1/lib/owlapiv3/owlapi-distribution-3.4.3-bin.jar" sourcepath="/home/ale/svn/Conservativity/Code/lib/owlapi-distribution-3.4.6-SNAPSHOT-sources.jar"/>
+	<referencedentry kind="lib" path="lib/pellet-2.3.1/lib/owlapiv3/owlapi-distribution-3.4.3-bin.jar" sourcepath="lib/owlapi-distribution-3.4.6-SNAPSHOT-sources.jar"/>
 </classpath>
