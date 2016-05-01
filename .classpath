@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/ale/svn/Conservativity/Code/lib/factpp-1.6.2/FaCTpp-linux-1.6.2/64bit"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/explanation-3.3.0.jar" sourcepath="/home/ale/svn/Conservativity/Code/lib/explanation-3.3.0-src.zip"/>
+	<classpathentry kind="lib" path="lib/HermiT/org.semanticweb.HermiT.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-core-2.7.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-core-2.7.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-core-2.7.3.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-iri-0.9.3.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/antlr/antlr-runtime-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/aterm-java-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/jena-arq-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/jena-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/jena-iri-0.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/jena-tdb-0.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jena/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/jgrapht/jgrapht-jdk1.5.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/junit/junit.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-cli.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-core.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-datatypes.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-el.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-explanation.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-jena.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-modularity.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-owlapiv3.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-pellint.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-query.jar"/>
+	<classpathentry kind="lib" path="lib/pellet-2.3.1/lib/pellet-rules.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/LOGMAP"/>
+	<classpathentry kind="lib" path="lib/guava-17.0.jar" sourcepath="lib/guava-17.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/LogMapConservativity/lib/guava-17.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/DLVwrapper-v4.2.jar"/>
+	<classpathentry kind="lib" path="lib/uncommons-maths-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/watchmaker-framework-0.7.1.jar"/>
+	<classpathentry kind="lib" path="/LOGMAP/lib/seals-omt-client-v4i.jar"/>
+	<classpathentry kind="lib" path="lib/HermiT_1.3.6.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-distribution-3.5.1.jar" sourcepath="lib/owlapi-distribution-3.5.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/LogMapConservativity/lib/owlapi-distribution-3.5.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/alignAPI-4.8/align.jar"/>
+	<classpathentry kind="lib" path="lib/alignAPI-4.8/ontowrap.jar"/>
+	<classpathentry kind="lib" path="lib/alignAPI-4.8/procalign.jar"/>
+	<classpathentry kind="lib" path="lib/owllink-1.2.2/owllink-bin.jar" sourcepath="lib/owllink-1.2.2/owllink-src.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/LogMapConservativity/lib/owllink-1.2.2/owllink-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/ale/svn/Conservativity/Code/lib/owllink-1.2.2/org.mortbay.jmx.jar"/>
+	<classpathentry kind="lib" path="/home/ale/svn/Conservativity/Code/lib/owllink-1.2.2/org.mortbay.jetty.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-7-oracle"/>
+	<classpathentry kind="lib" path="lib/factpp-linux-4.3/FaCTpp-OWLAPI-3.4-v1.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/elk-0.5.0-owlapi.jar" sourcepath="/home/ale/svn/Conservativity/Code/lib/elk-0.5.0-owlapi-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jgraphx_1.10.3.1_modified.jar"/>
+	<classpathentry kind="output" path="bin"/>
+	<referencedentry kind="lib" path="lib/pellet-2.3.1/lib/owlapiv3/owlapi-distribution-3.4.3-bin.jar" sourcepath="/home/ale/svn/Conservativity/Code/lib/owlapi-distribution-3.4.6-SNAPSHOT-sources.jar"/>
+</classpath>
