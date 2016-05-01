@@ -56,3 +56,6 @@ check that each executable have execution permission and that the folder structu
 ---- Supported Operating Systems and Environments ----
 The tools have been runned succesfully under Ubuntu 12.04 and Ubuntu 14.04, but also under MacOSX 10.7 Lion (by third parties). 
 All the code is compatible with Java7, what makes LogMapC system dependent is the usage of an external ASP solver (Clingo).
+
+--- Importing in Eclipse ---
+The projects are known to be running in Eclipse 3.8 under Ubuntu 14.04, import first the project inside LOGMAP folder, and then the one in the main git folder, as it depends on the other one.
