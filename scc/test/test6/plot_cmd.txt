@@ -1,0 +1,15 @@
+plot(test5pellet(:,3),test5pellet(:,4:5))
+plot(test5pellet);figure(gcf);
+[~,sorted_inds] = sort( test5pellet(:,3) );
+plot(test5pellet(sorted_inds,3),test5pellet(sorted_inds,4:5))
+[~,sorted_indsF] = sort( test5pellet(:,5) );
+plot(test5pellet(sorted_indsF,5),test5pellet(sorted_indsF,10)-test5pellet(sorted_indsF,9))
+plot(test5pellet(sorted_indsF,5),test5pellet(sorted_indsF,9)-test5pellet(sorted_indsF,10))
+plot(test5pellet(sorted_inds,3),test5pellet(sorted_inds,10)-test5pellet(sorted_inds,9))
+plot(test5pellet(sorted_indsF,5),test5pellet(sorted_indsF,11:12))
+plot(test5pellet(sorted_inds,3),test5pellet(sorted_inds,7))
+plot(test5pellet(sorted_inds,3),test5pellet(sorted_inds,[4:5 7]))
+plot(test5pellet(sorted_inds,3),[(test5pellet(sorted_inds,5) ./ test5pellet(sorted_inds,3)) test5pellet(sorted_inds,[4:5 7])])
+plot(test5pellet(sorted_inds,3),[(test5pellet(sorted_inds,5) ./ test5pellet(sorted_inds,3)) test5pellet(sorted_inds,7)])
+plot(test5pellet(sorted_inds,3),[(test5pellet(sorted_inds,5) ./ test5pellet(sorted_inds,3)) *100 test5pellet(sorted_inds,7)])
+plot(test5pellet(sorted_inds,3),[(test5pellet(sorted_inds,5) ./ test5pellet(sorted_inds,3)) *100 test5pellet(sorted_inds,7)/1000])

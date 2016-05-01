@@ -1,0 +1,1508 @@
+
+CLASSES: 2744
+NUMBER OF DUMMY INDIVIDUALS: 0
+MAX SIZE ANNOTATIONS: 0
+MIN SIZE ANNOTATIONS: 5000
+Number of classes/labels: 2743
+	Number of labels + syn: 0
+	Cases with huge combination of synonyms: 0
+	Number of entries inverted file (exact): 0
+Number of dProp: 0
+	Number of dProp inverted file: 0
+Number of oProp: 3
+	Number of oProp inverted file: 0
+Number of Indiv: 0
+	Number of Indiv inverted file: 0
+	Number of Indiv weak inverted file: 0
+	Number of Indiv Role assertions inverted file: 0
+Time setting labels and inverted files (s): 0.129
+
+Classifying 'ALE' Ontology with HermiT... 
+Done, Time (s): 1.22
+
+Representatives (aggregated): 0
+Disjoint: 0
+Equivalences: 0
+Big nodes: 0
+->General HORN Axioms: 0
+Extracting General Axioms: 0.014
+Original entries DirectSubclasses: 2743
+Original entries DirectSubclasses: 2743
+Adapted entries DirectSubclasses: 2743
+Adapted entries DirectSubclasses: 2743
+Representatives from Mappings: 0
+Mapping entries (sub mappings): 0
+Classes with wrong/negative preorder (-1 or -d): 0
+Classes with wrong/negative descendants intervals (<-1,-1> or <-id,-id>): 0
+Time Getting Disjoint Intervals (merged) (s): 0.006
+There are non unsatisfiable clases (non-empty intersection of disjoint intervals))
+0/4493
+Approximation Time: 26ms
+
+CLASSES: 3304
+NUMBER OF DUMMY INDIVIDUALS: 0
+MAX SIZE ANNOTATIONS: 0
+MIN SIZE ANNOTATIONS: 5000
+Number of classes/labels: 3304
+	Number of labels + syn: 0
+	Cases with huge combination of synonyms: 0
+	Number of entries inverted file (exact): 0
+Number of dProp: 0
+	Number of dProp inverted file: 0
+Number of oProp: 2
+	Number of oProp inverted file: 0
+Number of Indiv: 0
+	Number of Indiv inverted file: 0
+	Number of Indiv weak inverted file: 0
+	Number of Indiv Role assertions inverted file: 0
+Time setting labels and inverted files (s): 0.042
+
+Classifying 'S' Ontology with HermiT... 
+Done, Time (s): 0.854
+
+Representatives (aggregated): 0
+Disjoint: 9
+Equivalences: 0
+Big nodes: 0
+->General HORN Axioms: 0
+Extracting General Axioms: 0.01
+Original entries DirectSubclasses: 3304
+Original entries DirectSubclasses: 3304
+Adapted entries DirectSubclasses: 3304
+Adapted entries DirectSubclasses: 3304
+Representatives from Mappings: 0
+Mapping entries (sub mappings): 0
+Classes with wrong/negative preorder (-1 or -d): 0
+Classes with wrong/negative descendants intervals (<-1,-1> or <-id,-id>): 0
+Time Getting Disjoint Intervals (merged) (s): 0.007
+There are non unsatisfiable clases (non-empty intersection of disjoint intervals))
+0/5441
+Approximation Time: 21ms
+
+TEST START: 2014/03/18 10:35:32
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Read RDF Align mapping objects: 1206
+Num original mappings: 1206
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+0.9   0.8871638126829431
+	Assessing Object Property mappings: 0, to delete: 1
+TOTAL REPAIR TIME (s): 2.15
+Repaired mappings using LogMap: 1202
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1639879 disjointness axioms added
+Saved 3816677 (69.94663%) disjointness tests 
+LogMap repairing
+Num original mappings: 1206
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+0.9   0.8871638126829431
+	Assessing Object Property mappings: 0, to delete: 1
+TOTAL REPAIR TIME (s): 325.331
+Repaired mappings using LogMap: 1002
+Full detection time: 474047
+1
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 6ms
+
+TEST START: 2014/03/18 10:43:27
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1305
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 0.963
+Repaired mappings using LogMap: 1305
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1640333 disjointness axioms added
+Saved 3816223 (69.93831%) disjointness tests 
+LogMap repairing
+Num original mappings: 1305
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 331.844
+Repaired mappings using LogMap: 1207
+Full detection time: 503886
+2
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 5ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 5ms
+
+TEST START: 2014/03/18 10:51:53
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1391
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 0.957
+Repaired mappings using LogMap: 1391
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1660566 disjointness axioms added
+Saved 3795990 (69.567505%) disjointness tests 
+LogMap repairing
+Num original mappings: 1391
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 336.756
+Repaired mappings using LogMap: 1149
+Full detection time: 507935
+3
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 5ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 11:00:22
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1272
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 1.086
+Repaired mappings using LogMap: 1272
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1639871 disjointness axioms added
+Saved 3816685 (69.94678%) disjointness tests 
+LogMap repairing
+Num original mappings: 1272
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 326.137
+Repaired mappings using LogMap: 1153
+Full detection time: 494579
+4
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 5ms
+
+TEST START: 2014/03/18 11:08:38
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1542
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+0.9   0.5
+	Assessing Object Property mappings: 1, to delete: 1
+TOTAL REPAIR TIME (s): 0.99
+Repaired mappings using LogMap: 1541
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1662621 disjointness axioms added
+Saved 3793935 (69.52985%) disjointness tests 
+LogMap repairing
+Num original mappings: 1542
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+0.9   0.5
+	Assessing Object Property mappings: 1, to delete: 1
+TOTAL REPAIR TIME (s): 335.096
+Repaired mappings using LogMap: 1359
+Full detection time: 500255
+5
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 3ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 6ms
+
+TEST START: 2014/03/18 11:16:59
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1480
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 0.935
+Repaired mappings using LogMap: 1480
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1652229 disjointness axioms added
+Saved 3804327 (69.7203%) disjointness tests 
+LogMap repairing
+Num original mappings: 1480
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 1524.98
+Repaired mappings using LogMap: 971
+Full detection time: 1695753
+6
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 4ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 5ms
+
+TEST START: 2014/03/18 11:45:16
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 990
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 0.926
+Repaired mappings using LogMap: 990
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1639931 disjointness axioms added
+Saved 3816625 (69.94568%) disjointness tests 
+LogMap repairing
+Num original mappings: 990
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 323.606
+Repaired mappings using LogMap: 919
+Full detection time: 490004
+7
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 11:53:28
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1403
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 1.082
+Repaired mappings using LogMap: 1403
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1652139 disjointness axioms added
+Saved 3804417 (69.72195%) disjointness tests 
+LogMap repairing
+Num original mappings: 1403
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 332.069
+Repaired mappings using LogMap: 1179
+Full detection time: 497102
+8
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 5ms
+
+TEST START: 2014/03/18 12:01:46
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1155
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 0.936
+Repaired mappings using LogMap: 1155
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1652141 disjointness axioms added
+Saved 3804415 (69.72191%) disjointness tests 
+LogMap repairing
+Num original mappings: 1155
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 327.252
+Repaired mappings using LogMap: 1054
+Full detection time: 492206
+9
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 12:10:00
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 2738
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 1.373
+Repaired mappings using LogMap: 2685
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1652765 disjointness axioms added
+Saved 3803791 (69.71047%) disjointness tests 
+LogMap repairing
+Num original mappings: 2738
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 527.909
+Repaired mappings using LogMap: 1852
+Full detection time: 693844
+10
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 5ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 12:21:35
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1213
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 1.08
+Repaired mappings using LogMap: 1212
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1652186 disjointness axioms added
+Saved 3804370 (69.721085%) disjointness tests 
+LogMap repairing
+Num original mappings: 1213
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 346.58
+Repaired mappings using LogMap: 1099
+Full detection time: 518133
+11
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 12:30:14
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1038
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 1.093
+Repaired mappings using LogMap: 1037
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1640021 disjointness axioms added
+Saved 3816535 (69.94402%) disjointness tests 
+LogMap repairing
+Num original mappings: 1038
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 366.985
+Repaired mappings using LogMap: 894
+Full detection time: 532868
+12
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 4ms
+
+TEST START: 2014/03/18 12:39:09
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 973
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 0.904
+Repaired mappings using LogMap: 973
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1640289 disjointness axioms added
+Saved 3816267 (69.93911%) disjointness tests 
+LogMap repairing
+Num original mappings: 973
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 337.016
+Repaired mappings using LogMap: 914
+Full detection time: 517437
+13
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 5ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 12:47:47
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 976
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 1.063
+Repaired mappings using LogMap: 976
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1652586 disjointness axioms added
+Saved 3803970 (69.71375%) disjointness tests 
+LogMap repairing
+Num original mappings: 976
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 335.354
+Repaired mappings using LogMap: 908
+Full detection time: 510194
+14
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 3ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 5ms
+
+TEST START: 2014/03/18 12:56:19
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1339
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 0.928
+Repaired mappings using LogMap: 1339
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1639824 disjointness axioms added
+Saved 3816732 (69.94764%) disjointness tests 
+LogMap repairing
+Num original mappings: 1339
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 342.469
+Repaired mappings using LogMap: 1213
+Full detection time: 516427
+15
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 6ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 13:04:56
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1267
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 1.133
+Repaired mappings using LogMap: 1265
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1640114 disjointness axioms added
+Saved 3816442 (69.94232%) disjointness tests 
+LogMap repairing
+Num original mappings: 1267
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 1, to delete: 0
+TOTAL REPAIR TIME (s): 339.415
+Repaired mappings using LogMap: 1134
+Full detection time: 512958
+16
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 4ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 5ms
+
+TEST START: 2014/03/18 13:13:31
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1192
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 0.917
+Repaired mappings using LogMap: 1192
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1640397 disjointness axioms added
+Saved 3816159 (69.93713%) disjointness tests 
+LogMap repairing
+Num original mappings: 1192
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+	Assessing Data Property mappings: 0, to delete: 0
+	Assessing Object Property mappings: 2, to delete: 0
+TOTAL REPAIR TIME (s): 424.48
+Repaired mappings using LogMap: 1015
+Full detection time: 601087
+17
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/4493
+Approximation Time: 5ms
+NUMBER OF DUMMY INDIVIDUALS: 0
+0/5441
+Approximation Time: 7ms
+
+TEST START: 2014/03/18 13:23:33
+ALE, Reasoner: HermiT 1.3.8 (build 1099)
+S, Reasoner: HermiT 1.3.8 (build 1099)
+LogMap repairing
+Num original mappings: 1378
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 0.938
+Repaired mappings using LogMap: 1378
+First Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(2743^2 - 2743) / 2 = 3760653
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1532419 disjointness axioms added
+Saved 2228234 (59.251255%) disjointness tests 
+Second Onto (pre): consistent
+1 unsatisfiable classes (pre)
+NUMBER OF DUMMY INDIVIDUALS: 0
+(3304^2 - 3304) / 2 = 5456556
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+70%
+75%
+80%
+85%
+90%
+95%
+1652224 disjointness axioms added
+Saved 3804332 (69.72039%) disjointness tests 
+LogMap repairing
+Num original mappings: 1378
+NUMBER OF DUMMY INDIVIDUALS: 0
+NUMBER OF DUMMY INDIVIDUALS: 0
+TOTAL REPAIR TIME (s): 344.259
+Repaired mappings using LogMap: 1245
+Full detection time: 523952
+18
+Used Memory (pre): 6393.0
+Used Memory (post): 1812.0
+Start: 10:35:23
+End: 13:32:27
+

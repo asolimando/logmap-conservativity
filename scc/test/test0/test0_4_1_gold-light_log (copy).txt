@@ -1,0 +1,108 @@
+
+TEST 1 START: 2014/05/17 11:13:18
+/home/ale/data/oaei2013/library/reference/stw-thesoz.rdf
+
+STEP 0: input ontologies classification - 2014/05/17 11:13:24
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://stw.owl>))) [Axioms: 22614 Logical Axioms: 16036]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://thesoz.owl>))) [Axioms: 22024 Logical Axioms: 13646]
+STEP 0: 1893 (ms) - 2014/05/17 11:13:27
+
+STEP 1: load mappings and profile original consistency repair - 2014/05/17 11:13:27
+LogMap repairing
+Number of original mappings: 6322
+Repaired mappings using LogMap: 6322
+STEP 1: 3749 (ms) - 2014/05/17 11:13:30
+
+STEP 2: create and classify the aligned ontology - 2014/05/17 11:13:30
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+STEP 2: 1215 (ms) - 2014/05/17 11:13:32
+
+STEP 3: compute the semantic indexes for input/aligned ontologies - 2014/05/17 11:13:32
+Time indexing entities (s): 0.035
+Time extracting structural information (s): 1.311
+Time indexing entities (s): 0.044
+Time extracting structural information (s): 1.571
+STEP 3: 3383 (ms) - 2014/05/17 11:13:35
+
+STEP 4: detect conservativity principle violations and disjointness axioms - 2014/05/17 11:13:35
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 0: 8911 VIOLATION(S)
+Index violation detection (ms): 824
+ONTO 1: 33134 VIOLATION(S)
+Index violation detection (ms): 881
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 1: 33653 VIOLATION(S)
+Index violation detection (ms): 323
+ONTO 0: 9219 VIOLATION(S)
+Index violation detection (ms): 329
+STEP 4: 1497 (ms) - 2014/05/17 11:13:36
+
+STEP 5: SCC-based diagnosis computation - 2014/05/17 11:13:36
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+STEP 5: 2444 (ms) - 2014/05/17 11:13:39
+
+SCC removed 1044 mappings
+STEP 6: update the aligned ontology for testing unsolved violations - 2014/05/17 11:13:39
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+Time indexing entities (s): 0.047
+Time extracting structural information (s): 1.309
+STEP 6: 3342 (ms) - 2014/05/17 11:13:42
+
+STEP 7: detect unsolved violations using semantic indexes - 2014/05/17 11:13:42
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 1: 18914 VIOLATION(S)
+Index violation detection (ms): 462
+ONTO 0: 7206 VIOLATION(S)
+Index violation detection (ms): 465
+26120/42045 unsolved violation(s)
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 1: 19142 VIOLATION(S)
+Index violation detection (ms): 217
+ONTO 0: 7401 VIOLATION(S)
+Index violation detection (ms): 249
+26543/42872 unsolved violation(s) considering equivalences
+STEP 7: 1100 (ms) - 2014/05/17 11:13:43
+
+STEP 8: adding disjointness axioms to input ontologies - 2014/05/17 11:13:43
+42045 disjoint axioms added
+STEP 8: 1117 (ms) - 2014/05/17 11:13:45
+
+STEP 9: repair conservativity - 2014/05/17 11:13:45
+LogMap repairing (reusing indexes)
+Number of original mappings: 5278
+Repaired mappings using LogMap: 3188
+Mappings removed by LogMap: 2090
+STEP 9: 6256 (ms) - 2014/05/17 11:13:51
+
+Serializing the repaired mappings
+STEP 10: update the aligned ontology for testing unsolved violations - 2014/05/17 11:13:51
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+Time indexing entities (s): 0.031
+Time extracting structural information (s): 1.047
+STEP 10: 2430 (ms) - 2014/05/17 11:13:53
+
+STEP 11: detect unsolved violations using semantic indexes - 2014/05/17 11:13:53
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 150
+Index violation detection (ms): 229
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 1: 13 VIOLATION(S)
+Index violation detection (ms): 239
+ONTO 0: 11 VIOLATION(S)
+Index violation detection (ms): 296
+24/42872 unsolved violation(s) considering equivalences
+STEP 11: 836 (ms) - 2014/05/17 11:13:54
+
+Saving aligned ontology repaired by LogMap
+Total test time: 36759
+Start: 11:13:18
+End: 11:13:55

@@ -1,0 +1,56 @@
+
+TEST START: 2014/03/18 10:35:32
+Full detection time: 474047
+
+TEST START: 2014/03/18 10:43:27
+Full detection time: 503886
+
+TEST START: 2014/03/18 10:51:53
+Full detection time: 507935
+
+TEST START: 2014/03/18 11:00:22
+Full detection time: 494579
+
+TEST START: 2014/03/18 11:08:38
+Full detection time: 500255
+
+TEST START: 2014/03/18 11:16:59
+Full detection time: 1695753
+
+TEST START: 2014/03/18 11:45:16
+Full detection time: 490004
+
+TEST START: 2014/03/18 11:53:28
+Full detection time: 497102
+
+TEST START: 2014/03/18 12:01:46
+Full detection time: 492206
+
+TEST START: 2014/03/18 12:10:00
+Full detection time: 693844
+
+TEST START: 2014/03/18 12:21:35
+Full detection time: 518133
+
+TEST START: 2014/03/18 12:30:14
+Full detection time: 532868
+
+TEST START: 2014/03/18 12:39:09
+Full detection time: 517437
+
+TEST START: 2014/03/18 12:47:47
+Full detection time: 510194
+
+TEST START: 2014/03/18 12:56:19
+Full detection time: 516427
+
+TEST START: 2014/03/18 13:04:56
+Full detection time: 512958
+
+TEST START: 2014/03/18 13:13:31
+Full detection time: 601087
+
+TEST START: 2014/03/18 13:23:33
+Full detection time: 523952
+Start: 10:35:23
+End: 13:32:27

@@ -1,0 +1,109 @@
+
+TEST 1 START: 2014/05/20 18:00:49
+/home/ale/data/oaei2013/library/reference/stw-thesoz.rdf
+
+STEP 0: input ontologies classification - 2014/05/20 18:00:54
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+Ontology 0 (classified): Ontology(OntologyID(OntologyIRI(<http://stw.owl>))) [Axioms: 22614 Logical Axioms: 16036]
+Ontology 1 (classified): Ontology(OntologyID(OntologyIRI(<http://thesoz.owl>))) [Axioms: 22024 Logical Axioms: 13646]
+STEP 0: 1778 (ms) - 2014/05/20 18:00:56
+
+STEP 1: load mappings and profile original consistency repair - 2014/05/20 18:00:56
+LogMap repairing
+Number of original mappings: 6322
+Repaired mappings using LogMap: 6322
+STEP 1: 3716 (ms) - 2014/05/20 18:01:00
+
+STEP 2: create and classify the aligned ontology - 2014/05/20 18:01:00
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+STEP 2: 1244 (ms) - 2014/05/20 18:01:01
+
+STEP 3: compute the semantic indexes for input/aligned ontologies - 2014/05/20 18:01:01
+Time indexing entities (s): 0.035
+Time extracting structural information (s): 1.274
+Time indexing entities (s): 0.042
+Time extracting structural information (s): 1.565
+STEP 3: 3498 (ms) - 2014/05/20 18:01:05
+
+STEP 4: detect conservativity principle violations and disjointness axioms - 2014/05/20 18:01:05
+Detection of violations kind 1
+a) Detecting all violations using index
+ONTO 0: 8911 VIOLATION(S)
+Index violation detection (ms): 642
+ONTO 1: 33134 VIOLATION(S)
+Index violation detection (ms): 845
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 1: 33653 VIOLATION(S)
+Index violation detection (ms): 287
+ONTO 0: 9219 VIOLATION(S)
+Index violation detection (ms): 296
+STEP 4: 1452 (ms) - 2014/05/20 18:01:06
+
+STEP 5: adding disjointness axioms to input ontologies - 2014/05/20 18:01:06
+42045 disjoint axioms added
+STEP 5: 1372 (ms) - 2014/05/20 18:01:08
+
+STEP 6: repair conservativity - 2014/05/20 18:01:08
+LogMap repairing (reusing indexes)
+Number of original mappings: 6322
+Repaired mappings using LogMap: 3264
+Mappings removed by LogMap: 3058
+STEP 6: 22840 (ms) - 2014/05/20 18:01:31
+
+STEP 7: update the aligned ontology for testing unsolved violations - 2014/05/20 18:01:31
+3264 mapping(s)
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+Time indexing entities (s): 0.044
+Time extracting structural information (s): 1.057
+STEP 7: 2502 (ms) - 2014/05/20 18:01:33
+
+Serializing the repaired mappings
+STEP 8: detect unsolved violations using semantic indexes - 2014/05/20 18:01:33
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 216
+Index violation detection (ms): 284
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 1: 29 VIOLATION(S)
+Index violation detection (ms): 128
+ONTO 0: 11 VIOLATION(S)
+Index violation detection (ms): 365
+40/42872 unsolved violation(s) considering equivalences
+STEP 8: 974 (ms) - 2014/05/20 18:01:34
+
+Saving aligned ontology repaired by LogMap
+STEP 9: SCC-based diagnosis computation - 2014/05/20 18:01:35
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+3264 mappings loaded
+STEP 9: 1223 (ms) - 2014/05/20 18:01:36
+
+SCC removed 26 mappings
+STEP 10: update the aligned ontology for testing unsolved violations - 2014/05/20 18:01:36
+3238 mapping(s)
+AL, Reasoner: HermiT 1.3.8 (build 1099)
+Time indexing entities (s): 0.041
+Time extracting structural information (s): 1.073
+STEP 10: 2864 (ms) - 2014/05/20 18:01:39
+
+STEP 11: detect unsolved violations using semantic indexes - 2014/05/20 18:01:39
+Detection of violations kind 1
+a) Detecting all violations using index
+Index violation detection (ms): 374
+Index violation detection (ms): 477
+Detection of violations kind 2
+a) Detecting all violations using index
+ONTO 1: 4 VIOLATION(S)
+Index violation detection (ms): 218
+ONTO 0: 11 VIOLATION(S)
+Index violation detection (ms): 289
+15/42872 unsolved violation(s) considering equivalences
+STEP 11: 1365 (ms) - 2014/05/20 18:01:40
+
+Serializing the repaired mappings
+Total test time: 51458
+Start: 18:00:49
+End: 18:01:40

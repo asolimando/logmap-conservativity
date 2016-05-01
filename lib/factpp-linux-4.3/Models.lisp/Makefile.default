@@ -1,0 +1,10 @@
+# this is automatically generate makefile for KB
+
+FILES= dl.res Taxonomy.DRoles Taxonomy.ORoles Taxonomy.log reasoning.log
+all: sat
+
+clean:
+	for file in $(FILES); do \
+		rm -f $$file $$file.diff; \
+	done
+
