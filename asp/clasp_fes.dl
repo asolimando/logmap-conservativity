@@ -1,0 +1,32 @@
+%
+#domain vtx(X,O).
+#domain vtx(Y,P).
+#domain vtx(Z,Q).
+
+% r1 - an edge is either removed or not removed
+not_removed(edge(X,Y,C,M)) | removed(edge(X,Y,C,M)) :- edge(X,Y,C,M), X!=Y .
+
+% r2 - removed edges must be mappings
+not_removed(edge(X,Y,C,0)) :- edge(X,Y,C,0), X!=Y, O=P. 
+
+% r3 - X reaches Y if exists an edge and it has not been removed
+reaches(X,Y) :- edge(X,Y,C,M), not_removed(edge(X,Y,C,M)), X!=Y.
+% r4 - reaches is a transitive predicate 
+reaches(X,Z) :- reaches(X,Y), edge(Y,Z,C,M), not_removed(edge(Y,Z,C,M)), X!=Y, Y!=Z, X!=Z.
+
+% r5 - X reaches Y safely if exists an edge and it has not been removed and the edge is not a mapping
+reachesSafe(X,Y) :- edge(X,Y,C,0), O=P, X!=Y.
+% r6 - reachesSafe is a transitive predicate
+reachesSafe(X,Z) :- reachesSafe(X,Y), edge(Y,Z,C,0), O=P, X!=Y, Y!=Z, X!=Z.
+
+% r7 - a vertex reaching himself identifies a cycle (we only consider cycles using mappings)
+unsafeCycle(Y) :- not reachesSafe(Y,X), reaches(Y,X), reaches(X,Y), O=P, X!=Y.
+
+% r8 - there must be no cycles
+:- unsafeCycle(Y) .
+
+% r9 - optimization
+#minimize [ removed(edge(X,Y,C,1)) = C ] .
+
+#hide .
+#show removed/1.
