@@ -1,0 +1,36 @@
+% r1 - an edge between vertices in different ontologies is a mapping
+%mapping(edge(X,Y,C)) :- edge(X,Y,C), vtx(X,O), vtx(Y,P), O!=P .
+%
+% r2 - X reaches Y in the aligned ontology if there is an edge from X to Y
+reachesPre(X,Y) :- edge(X,Y,C) .
+% r3 - reachesPre is a transitive predicate
+reachesPre(X,Z) :- reachesPre(X,Y), edge(Y,Z,C) .
+
+% r4 - X reaches Y if exists an edge and it has not been removed
+reaches(X,Y) :- edge(X,Y,C), not_removed(edge(X,Y,C)).
+% r5 - reaches is a transitive predicate 
+reaches(X,Z) :- reaches(X,Y), edge(Y,Z,C), not_removed(edge(Y,Z,C)).
+
+% r6 - X reaches Y safely if exists an edge and it has not been removed and the edge is not a mapping
+reachesSafe(X,Y) :- edge(X,Y,C), not_removed(edge(X,Y,C)), not mapping(edge(X,Y,C)).
+% r7 - reachesSafe is a transitive predicate
+reachesSafe(X,Z) :- reachesSafe(X,Y), edge(Y,Z,C), not_removed(edge(Y,Z,C)), not mapping(edge(Y,Z,C)).
+
+% r8 - an edge is either removed or not removed
+not_removed(edge(X,Y,C)) v removed(edge(X,Y,C)) :- vtx(X,O), vtx(Y,P), edge(X,Y,C) .
+
+% r9 - removed edges must be mappings
+:- removed(edge(X,Y,C)), not mapping(edge(X,Y,C)) . 
+
+% r10 - do not remove mappings that are necessary to safe cycles
+not_removed(edge(A,B,C)) :- reachesSafe(X,A), reachesSafe(A,X), reachesSafe(B,Y), reachesSafe(Y,B), 
+reachesPre(X,Y), not reaches(X,Y), edge(A,B,C), vtx(A,O), vtx(B,P), vtx(X,O), vtx(Y,P), O!=P .
+
+% r11 - a cycle is unsafe iff it creates at least a new cycle in one of the input ontologies
+unsafeCycle(Y) :- not reachesSafe(Y,X), reaches(Y,X), reaches(X,Y), vtx(X,O), vtx(Y,O), X!=Y.
+
+% r12 - there must be no unsafe cycles
+:- vtx(Y,O), unsafeCycle(Y) .
+
+% r13 - optimization
+:~ removed(edge(X,Y,C)) . [C:1]

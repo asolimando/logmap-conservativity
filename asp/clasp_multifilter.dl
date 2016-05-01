@@ -1,0 +1,27 @@
+#domain vtx(X,O).
+#domain vtx(Y,P).
+#domain vtx(Z,Q).
+
+% r - clash on source entity
+clash(edge(X,Y,C,1),edge(X,Z,D,1)) :- edge(X,Y,C,1), edge(X,Z,D,1), not_removed(edge(X,Y,C,1)), not_removed(edge(X,Z,D,1)), 
+O!=P, O!=Q, P=Q, Y!=Z, X!=Y, X!=Z .
+
+% r - clash on target entity
+clash(edge(X,Y,C,1), edge(Z,Y,D,1)) :- edge(X,Y,C,1), edge(Z,Y,D,1), not_removed(edge(X,Y,C,1)), not_removed(edge(Z,Y,D,1)), 
+O!=P, P!=Q, O=Q, Y!=Z, X!=Y, X!=Z .
+
+% r - an edge is either removed or not removed
+not_removed(edge(X,Y,C,M)) | removed(edge(X,Y,C,M)) :- edge(X,Y,C,M), X!=Y .
+
+% r - removed edges must be mappings
+not_removed(edge(X,Y,C,0)) :- edge(X,Y,C,0), X!=Y, O=P. 
+
+% r - there must be no clashes
+:- clash(edge(X,Y,C,1), edge(X,Z,D,1)), edge(X,Y,C,1), edge(X,Z,D,1), O!=P, O!=Q, P=Q, Y!=Z, X!=Y, X!=Z .
+:- clash(edge(X,Y,C,1), edge(Z,Y,D,1)), edge(X,Y,C,1), edge(Z,Y,D,1), O!=P, P!=Q, O=Q, Y!=Z, X!=Y, X!=Z .
+
+% r - optimization
+#minimize [ removed(edge(X,Y,C,1)) = C ] .
+
+#hide .
+#show removed/1.

@@ -1,0 +1,27 @@
+% r1 - an edge is either removed or not removed
+not_removed(edge(X,Y,C)) v removed(edge(X,Y,C)) :- vtx(X,O), vtx(Y,P), edge(X,Y,C) .
+
+% r2 - removed edges must be mappings
+:- removed(edge(X,Y,C)), not mapping(edge(X,Y,C)) . 
+
+% r3 - X reaches Y if exists an edge and it has not been removed
+reaches(X,Y) :- edge(X,Y,C), not_removed(edge(X,Y,C)).
+
+% r4 - express transitivity for reaches predicate
+reaches(X,Z) :- reaches(X,Y), edge(Y,Z,C), not_removed(edge(Y,Z,C)).
+
+% r5 - X reaches Y safely if exists an edge and it has not been removed and the edge is not a mapping
+reachesSafe(X,Y) :- edge(X,Y,C), not_removed(edge(X,Y,C)), not mapping(edge(X,Y,C)).
+
+% r6 - transitivity for reachesSafe predicate
+reachesSafe(X,Z) :- reachesSafe(X,Y), edge(Y,Z,C), not_removed(edge(Y,Z,C)), not mapping(edge(Y,Z,C)).
+
+% r7 - a vertex reaching himself identifies a cycle (we only consider cycles using mappings)
+unsafeCycle(Y) :- not reachesSafe(Y,X), reaches(Y,X), reaches(X,Y), vtx(X,O), vtx(Y,O), X!=Y.
+
+% r8 - there must be no cycles
+:- vtx(Y,O), unsafeCycle(Y) .
+
+% r7 - optimization
+:~ removed(edge(X,Y,C)) . [C:1]
+
