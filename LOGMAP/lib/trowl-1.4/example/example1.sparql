@@ -1,0 +1,7 @@
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbp: <http://dbpedia.org/ontology/>
+
+SELECT ?x WHERE {
+?x a yago:Book106410904 .
+}
+

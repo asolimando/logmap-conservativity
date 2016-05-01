@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/LogMapConservativity/lib/owlapi-distribution-3.4.6-SNAPSHOT.jar" sourcepath="/LogMapConservativity/lib/owlapi-distribution-3.4.6-SNAPSHOT-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/LogMapConservativity/lib/owlapi-distribution-3.4.6-SNAPSHOT-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/LogMapConservativity/lib/HermiT/HermiT.jar"/>
+	<classpathentry kind="lib" path="/LogMapConservativity/lib/HermiT/org.semanticweb.HermiT.jar"/>
+	<classpathentry kind="lib" path="/LogMapConservativity/lib/pellet-2.3.1/lib/jena/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/LogMapConservativity/lib/pellet-2.3.1/lib/jena/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/LogMapConservativity/lib/pellet-2.3.1/lib/pellet-core.jar"/>
+	<classpathentry kind="lib" path="lib/seals-omt-client-v4i.jar"/>
+	<classpathentry kind="lib" path="lib/org.semanticweb.more.0.1.5.jar"/>
+	<classpathentry kind="lib" path="/home/ale/svn/Conservativity/LOGMAP/lib/pellet-owlapiv3.jar"/>
+	<classpathentry kind="lib" path="lib/trowl-1.4/lib/TrOWLCore.jar"/>
+	<classpathentry kind="lib" path="lib/FaCTpp-OWLAPI-3.4-v1.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/alcomo.jar"/>
+	<classpathentry kind="lib" path="lib/elk-owlapi-0.4.2/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="/LogMapConservativity/lib/elk-0.5.0-owlapi.jar" sourcepath="/home/ale/svn/Conservativity/Code/lib/elk-0.5.0-owlapi-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

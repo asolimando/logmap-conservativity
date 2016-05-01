@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY Food "http://TrOWL.eu/NBox/Food.owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://TrOWL.eu/NBox/Food.owl#"
+     xml:base="http://TrOWL.eu/NBox/Food.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Food="http://TrOWL.eu/NBox/Food.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://TrOWL.eu/NBox/Food.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#order -->
+
+    <owl:ObjectProperty rdf:about="&Food;order">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#Customer -->
+
+    <owl:Class rdf:about="&Food;Customer">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Food;order"/>
+                <owl:someValuesFrom rdf:resource="&Food;Food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#Food -->
+
+    <owl:Class rdf:about="&Food;Food"/>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#MinorSpicyFood -->
+
+    <owl:Class rdf:about="&Food;MinorSpicyFood">
+        <rdfs:subClassOf rdf:resource="&Food;SpicyFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#SpicyFood -->
+
+    <owl:Class rdf:about="&Food;SpicyFood">
+        <rdfs:subClassOf rdf:resource="&Food;Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#Vegetarian -->
+
+    <owl:Class rdf:about="&Food;Vegetarian">
+        <rdfs:subClassOf rdf:resource="&Food;Customer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Food;order"/>
+                <owl:someValuesFrom rdf:resource="&Food;VegetarianFood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#VegetarianFood -->
+
+    <owl:Class rdf:about="&Food;VegetarianFood">
+        <rdfs:subClassOf rdf:resource="&Food;Food"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#Jeff -->
+
+    <owl:NamedIndividual rdf:about="&Food;Jeff">
+        <rdf:type rdf:resource="&Food;Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#Jek -->
+
+    <owl:NamedIndividual rdf:about="&Food;Jek">
+        <rdf:type rdf:resource="&Food;Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#Yuan -->
+
+    <owl:NamedIndividual rdf:about="&Food;Yuan">
+        <rdf:type rdf:resource="&Food;Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#Yuting -->
+
+    <owl:NamedIndividual rdf:about="&Food;Yuting">
+        <rdf:type rdf:resource="&Food;Vegetarian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#pork_curry -->
+
+    <owl:NamedIndividual rdf:about="&Food;pork_curry">
+        <rdf:type rdf:resource="&Food;MinorSpicyFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#roast_beef -->
+
+    <owl:NamedIndividual rdf:about="&Food;roast_beef">
+        <rdf:type rdf:resource="&Food;Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#salad -->
+
+    <owl:NamedIndividual rdf:about="&Food;salad">
+        <rdf:type rdf:resource="&Food;VegetarianFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://TrOWL.eu/NBox/Food.owl#tandoori_chicken -->
+
+    <owl:NamedIndividual rdf:about="&Food;tandoori_chicken">
+        <rdf:type rdf:resource="&Food;SpicyFood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Food;Jeff"/>
+            <rdf:Description rdf:about="&Food;Jek"/>
+            <rdf:Description rdf:about="&Food;Yuan"/>
+            <rdf:Description rdf:about="&Food;Yuting"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.20069) http://owlapi.sourceforge.net -->
+
